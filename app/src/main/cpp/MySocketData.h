@@ -31,7 +31,7 @@ public:
     uint64_t nSize;
 
     uint8_t *data;
-    int64_t  disp_no;
+    //int64_t  disp_no;
     int      nFrameNo;
 };
 

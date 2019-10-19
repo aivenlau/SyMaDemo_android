@@ -4,6 +4,9 @@ package com.joyhonest.jh_ui;
 //import android.app.Fragment;
 
 import android.content.pm.ActivityInfo;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.constraint.ConstraintLayout;
@@ -21,6 +24,9 @@ import android.widget.TextView;
 import com.joyhonest.wifination.wifination;
 
 import org.simple.eventbus.EventBus;
+
+import java.util.Calendar;
+import java.util.TimeZone;
 
 
 /**
@@ -714,22 +720,75 @@ public class main_fragment extends Fragment implements View.OnClickListener {
     String sRecordFileName = "";
 
     int   nType = 0;
+
+    boolean  bOsd=false;
+    int nRecT = 0;
+
+    boolean  bGesture = false;
+
+    boolean  bSDRec = false;
     // 按键
     @Override
     public void onClick(View view) {
         if (view == But_Path) {
 
-            EventBus.getDefault().post("abc", "GotoPath");
-            //wifination.naGetRtl_List(false,0);
-            //wifination.naDownLoadRtlFile("20190101_000014.mp4");
+            if(BuildConfig.D_Debug)
+            {
+//                bGesture = !bGesture;
+//                wifination.naSetGesture(bGesture,this.getActivity().getApplicationContext());
+
+                //bitmap = getVideoThumbnail(str);
+                Bitmap bitmap = wifination.naGetVideoThumbnail("/storage/emulated/0//Sports-Camera/Sports_SD/MOVI0822.avi");
+
+            }
+            else {
+                EventBus.getDefault().post("abc", "GotoPath");
+            }
 
         }
+
         if (view == But_HeadLess) {
-            bHeadLess = !bHeadLess;
-            if (bHeadLess) {
-                But_HeadLess.setBackgroundResource(R.mipmap.nohead_sel_jh);
-            } else {
-                But_HeadLess.setBackgroundResource(R.mipmap.nohead_nor_jh);
+            if(BuildConfig.D_Debug)
+            {
+                byte []dd = new byte[7];
+                // 1、取得本地时间：
+                Calendar cal = Calendar.getInstance() ;
+                // 2、取得时间偏移量：
+                int zoneOffset = cal.get(java.util.Calendar.ZONE_OFFSET);
+                // 3、取得夏令时差：
+                int dstOffset = cal.get(java.util.Calendar.DST_OFFSET);
+                // 4、从本地时间里扣除这些差量，即可以取得UTC时间：
+                cal.add(java.util.Calendar.MILLISECOND, -(zoneOffset + dstOffset));
+                int year = cal.get(Calendar.YEAR);
+                int month = cal.get(Calendar.MONTH)+1;
+                int day = cal.get(Calendar.DAY_OF_MONTH);
+                int hour = cal.get(Calendar.HOUR_OF_DAY);
+                int minute = cal.get(Calendar.MINUTE);
+                int sec = cal.get(Calendar.SECOND);
+                TimeZone tz = TimeZone.getDefault();
+                int  _t =tz.getOffset(System.currentTimeMillis())/(3600*1000);
+                dd[0] = (byte)(year-2000);
+                dd[1] = (byte)month;
+                dd[2] = (byte)day;
+                dd[3] = (byte)hour;
+                dd[4] = (byte)minute;
+                dd[5] = (byte)sec;
+                dd[6] = (byte)_t;
+                wifination.na4225_SyncTime(dd,7);
+               // wifination.na4225_ReadStatus();
+
+                //wifination.na4225_FormatSD();
+
+
+            }
+            else {
+
+                bHeadLess = !bHeadLess;
+                if (bHeadLess) {
+                    But_HeadLess.setBackgroundResource(R.mipmap.nohead_sel_jh);
+                } else {
+                    But_HeadLess.setBackgroundResource(R.mipmap.nohead_nor_jh);
+                }
             }
 
         }
@@ -799,7 +858,7 @@ public class main_fragment extends Fragment implements View.OnClickListener {
         if (view == But_KeyStop) {
             if(BuildConfig.D_Debug)
             {
-                 wifination.na4225_GetFileList(3,1,66);
+                 wifination.na4225_GetFileList(wifination.GP4225_Type_Video,1,20);
             }
             else {
                 bStop = true;
@@ -822,7 +881,10 @@ public class main_fragment extends Fragment implements View.OnClickListener {
             {
                 //wifination.na4225_GetFileList(1,1,10);
                 //"192.168.33.1",30000,
-                wifination.na4225StartDonwLoad("","MOVI0133.AVI",65667072,"/storage/emulated/0/MOVI_ABC.AVI");
+                //wifination.na4225StartDonwLoad("","MOVI0264.AVI",73302016,"/storage/emulated/0/MOVI_ABC.AVI");
+                Bitmap bitmap = wifination.naGetVideoThumbnail("/storage/emulated/0/1/MOVI0763.avi");
+                Drawable drawable = new BitmapDrawable(bitmap);
+                But_KeyUp.setBackground(drawable);
             }
             else {
                 if (nIsOldFlyControl == _720P_oldCtron) {
@@ -894,19 +956,39 @@ public class main_fragment extends Fragment implements View.OnClickListener {
         }
 
         if (view == But_Sensor) {
-            int Sensor_img = R.mipmap.gravity_sel_jh;
-            bSensor = !bSensor;
-            if (!bSensor) {
-                Sensor_img = R.mipmap.gravity_nor_jh;
-                myControl.F_SetMode(0);
-            } else {
-                myControl.F_SetMode(1);
+            if(BuildConfig.D_Debug)
+            {
+                wifination.naSnapPhoto("",wifination.TYPE_ONLY_SD);
+            }else
+            {
+                int Sensor_img = R.mipmap.gravity_sel_jh;
+                bSensor = !bSensor;
+                if (!bSensor) {
+                    Sensor_img = R.mipmap.gravity_nor_jh;
+                    myControl.F_SetMode(0);
+                } else {
+                    myControl.F_SetMode(1);
+                }
+                But_Sensor.setBackgroundResource(Sensor_img);
+                F_SetSensor();
             }
-            But_Sensor.setBackgroundResource(Sensor_img);
-            F_SetSensor();
         }
 
         if (view == But_Speed) {
+            if(BuildConfig.D_Debug)
+            {
+                bRe = !bRe;
+                if(bRe)
+                {
+                    wifination.naStartRecord("",wifination.TYPE_ONLY_SD);
+                }
+                else
+                {
+                    wifination.naStopRecord(wifination.TYPE_ONLY_SD);
+                }
+                return;
+            }
+
             bHiSpeed = !bHiSpeed;
             JH_App.bHiSpeed = bHiSpeed;
             F_DispSpeed();
@@ -964,8 +1046,8 @@ public class main_fragment extends Fragment implements View.OnClickListener {
                 }
 
 
-                wifination.naStopRecord_All(); //aivenlau
-                //wifination.naStopRecord(wifination.TYPE_ONLY_PHONE);
+                //wifination.naStopRecord_All(); //aivenlau
+                wifination.naStopRecord(wifination.TYPE_ONLY_PHONE);
 
                 if (sRecordFileName.length() > 10) {
                     sRecordFileName = "";
@@ -974,15 +1056,20 @@ public class main_fragment extends Fragment implements View.OnClickListener {
             } else {
                 sRecordFileName = JH_App.F_GetSaveName(false);
 
-                 wifination.naStartRecord(sRecordFileName, wifination.TYPE_BOTH_PHONE_SD); //aivenlau
+                wifination.naSetRecordAudio(true);
 
-                //wifination.naStartRecord(sRecordFileName, wifination.TYPE_ONLY_PHONE);
+                 //wifination.naStartRecord(sRecordFileName, wifination.TYPE_BOTH_PHONE_SD); //aivenlau
+
+                wifination.naStartRecord(sRecordFileName, wifination.TYPE_ONLY_PHONE);
 
                 RecordTime_textView.setText("00:00");
 
             }
         }
     }
+
+
+    boolean  bRe=false;
 
     public void F_DispMessage(String str) {
         snapshot.setText(str);

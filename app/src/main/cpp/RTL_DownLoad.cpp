@@ -63,7 +63,7 @@ int RTL_DownLoad::Connect()
         return 0;
     }
 
-    socketfd = socket(AF_INET, ((unsigned)SOCK_STREAM)|((unsigned)SOCK_CLOEXEC), IPPROTO_TCP);
+    socketfd = socket(AF_INET, (int)((unsigned)SOCK_STREAM|(unsigned int)SOCK_CLOEXEC), IPPROTO_TCP);
     if (socketfd <0) {
         bConnected = false;
         return -1;

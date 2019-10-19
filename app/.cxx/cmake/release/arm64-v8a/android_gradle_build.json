@@ -9,14 +9,6 @@
 	"cppFileExtensions" : [ "cc", "cpp" ],
 	"libraries" : 
 	{
-		"IlmImf-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "IlmImf",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libIlmImf.a",
-			"toolchain" : "11538035232414051655"
-		},
 		"jh_wifi-Release-arm64-v8a" : 
 		{
 			"abi" : "arm64-v8a",
@@ -27,366 +19,156 @@
 			[
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/FFMpegPlayerCore.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/FFmpegMusic.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/FFmpegVideo.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/GL/CameraOpenGLES.c",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/GL/cameraShader.c",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/GL/opengles/esUtil.c",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/GL/opengles/matrix.c",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/GetVideoThumbnail.cpp",
+					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/JH_TestInfo.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/JPEG_BUFFER.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/MyDownLoad_GKA.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/MyFrame.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/MyMediaCoder.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/MyRevBuffer.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/MySocketData.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/MySocket_GKA.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/MySonix.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/OnLinePlayer.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/OpenCV_Focusing.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/RTL_DownLoad.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/imageutils_jni.cc",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/jh_wifi.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/myRTP.cpp",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/rgb2yuv.cc",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include -isystem /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni/include/opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Djh_wifi_EXPORTS -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O2 -DNDEBUG  -fPIC    -c ",
 					"src" : "/WORK2/SyMaDemo_android/app/src/main/cpp/yuv2rgb.cc",
 					"workingDirectory" : "/WORK2/SyMaDemo_android/app/.cxx/cmake/release/arm64-v8a"
 				}
 			],
 			"output" : "/WORK2/SyMaDemo_android/app/build/intermediates/cmake/release/obj/arm64-v8a/libjh_wifi.so",
-			"toolchain" : "11538035232414051655"
-		},
-		"libcpufeatures-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "libcpufeatures",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"libjasper-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "libjasper",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibjasper.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"libjpeg-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "libjpeg",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibjpeg.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"libpng-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "libpng",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibpng.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"libprotobuf-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "libprotobuf",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibprotobuf.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"libtiff-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "libtiff",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibtiff.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"libwebp-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "libwebp",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibwebp.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_calib3d-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_calib3d",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_core-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_core",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_core.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_dnn-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_dnn",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_dnn.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_features2d-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_features2d",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_flann-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_flann",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_highgui-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_highgui",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_imgcodecs-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_imgcodecs",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_imgproc-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_imgproc",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_java-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_java",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/libs/arm64-v8a/libopencv_java3.so",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_ml-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_ml",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_objdetect-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_objdetect",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_photo-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_photo",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_shape-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_shape",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_shape.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_stitching-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_stitching",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_stitching.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_superres-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_superres",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_superres.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_video-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_video",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_video.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_videoio-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_videoio",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"opencv_videostab-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "opencv_videostab",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_videostab.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"tbb-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "tbb",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a",
-			"toolchain" : "11538035232414051655"
-		},
-		"tegra_hal-Release-arm64-v8a" : 
-		{
-			"abi" : "arm64-v8a",
-			"artifactName" : "tegra_hal",
-			"buildType" : "release",
-			"output" : "/WORK/ffmpeg/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libtegra_hal.a",
 			"toolchain" : "11538035232414051655"
 		}
 	},

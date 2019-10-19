@@ -1516,7 +1516,7 @@ int MySonix::createVideoSocket(void) {
         return 0;
     }
     struct sockaddr_in myaddr;
-    if ((videofd = socket(AF_INET, (unsigned int)SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_UDP)) < 0) {
+    if ((videofd = socket(AF_INET,  (int)((unsigned int)SOCK_DGRAM|(unsigned int)SOCK_CLOEXEC), IPPROTO_UDP)) < 0) {
         //printf("Failed to create socket\n");
         LOGE("Failed to create socket");
         return -1;
@@ -1846,7 +1846,7 @@ int MySonix::createCommandSocket(void) {
     struct sockaddr_in myaddr;
 
     if (uartCommandfd < 0) {
-        uartCommandfd = socket(AF_INET, (unsigned int)SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_UDP);
+        uartCommandfd = socket(AF_INET,  (int)((unsigned int)SOCK_DGRAM|(unsigned int)SOCK_CLOEXEC), IPPROTO_UDP);
         if (uartCommandfd >= 0) {
             setsockopt(uartCommandfd, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv));
         }
@@ -1859,7 +1859,7 @@ int MySonix::createCommandSocket(void) {
     commandfd = -1;
 
     /* Create the UDP socket */
-    if ((commandfd = socket(AF_INET, (unsigned int)SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_UDP)) < 0) {
+    if ((commandfd = socket(AF_INET,  (int)((unsigned int)SOCK_DGRAM|(unsigned int)SOCK_CLOEXEC), IPPROTO_UDP)) < 0) {
         LOGE("Failed to create socket");
         return -1;
     }
@@ -2018,7 +2018,7 @@ void  MySonix::F_CreateRevSocket_and_Listen(void)
         {
                 return;
         }
-        rev_socket = socket(AF_INET, (unsigned int)SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_UDP);
+        rev_socket = socket(AF_INET, (int)((unsigned int)SOCK_DGRAM|(unsigned int)SOCK_CLOEXEC), IPPROTO_UDP);
         if (rev_socket > 0) {
                 setsockopt(rev_socket, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv));
         } else

@@ -45,6 +45,8 @@ public class SplashActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        wifination.naStartReadUdp(20001);
+
         JH_App.init(getApplicationContext(),null,null,null,null);
         JH_App.checkDeviceHasNavigationBar(this);
 
@@ -137,6 +139,8 @@ public class SplashActivity extends AppCompatActivity
 
         EventBus.getDefault().register(this);
 
+        //Handler_Read4225.post(Runnable_Read4225);
+
 
 
     }
@@ -195,6 +199,32 @@ public class SplashActivity extends AppCompatActivity
         Log.e("INFO", "Info a=" + nPassEdit+"pass = "+s);
     }
 
+//    Handler  Handler_Read4225 = new Handler();
+//    Runnable Runnable_Read4225 =  new Runnable() {
+//        @Override
+//        public void run() {
+//            wifination.na4225_ReadStatus();
+//            Handler_Read4225.postDelayed(this,250);
+//        }
+//    };
+//
+//
+//    @Subscriber(tag="GP4225_GetStatus")
+//    private  void GP4225_GetStatus(String str)
+//    {
+//        Log.e("ABC","Get gp4225 status!");
+//
+////        if(wifination.gp4225_Device.bSD)
+////        {
+////            button6.setEnabled(true);
+////            button7.setEnabled(true);
+////        }
+////        else
+////        {
+////            button6.setEnabled(false);
+////            button7.setEnabled(false);
+////        }
+//    }
 
 
 

@@ -9,7 +9,7 @@ MySocketData::MySocketData() : nLen(0),nFrameNo(-1) {
     nSize = DATA_LEN;
     this->nLen = 0;
     this->data = new uint8_t[nSize];
-    disp_no = -1;
+    //disp_no = -1;
 }
 
 MySocketData::~MySocketData() {
@@ -34,7 +34,7 @@ void MySocketData::Clean(void) {
         nSize=DATA_LEN;
         this->data = new uint8_t[nSize];
     }
-    disp_no = -1;
+    //disp_no = -1;
     nLen = 0;
 };
 

@@ -24,7 +24,9 @@ public class wifination {
 
 
 
-
+    public  final   static    int  GP4225_Type_Video = 1;
+    public  final   static    int  GP4225_Type_Locked = 2;
+    public  final   static    int  GP4225_Type_Photo = 3;
 
 
     public final static int IC_NO = -1;
@@ -69,6 +71,9 @@ public class wifination {
 
     public static Context appContext = null;
 
+
+    private  static Bitmap Gesture_bmp =null; // = Bitmap.createBitmap(300,300, Bitmap.Config.ARGB_8888);
+
     static {
         try {
             System.loadLibrary("jh_wifi");
@@ -80,6 +85,8 @@ public class wifination {
             mDirectBuffer = ByteBuffer.allocateDirect(BMP_Len + CmdLen);     //获取每帧数据，主要根据实际情况，分配足够的空间。
 
             naSetDirectBuffer(mDirectBuffer, BMP_Len + CmdLen);
+
+
 
         } catch (UnsatisfiedLinkError Ule) {
             Log.e(TAG, "Cannot load jh_wifi.so ...");
@@ -193,6 +200,8 @@ public class wifination {
         }
         if(sig!=null)
         {
+            if(Gesture_bmp==null)
+                Gesture_bmp = Bitmap.createBitmap(300,300, Bitmap.Config.ARGB_8888);
             sig.F_Start(bGesture);
         }
         naSetGestureA(b);
@@ -201,8 +210,32 @@ public class wifination {
 
 
     /*
-            4225 凌通 支持SD卡录像+
+            GP4225 凌通 支持SD卡录像+
     */
+
+    //同步时间
+    public static native void na4225_SyncTime(byte[] data,int nLen);
+    public static native void na4225_ReadTime();
+    //是否显示水印
+    public static native void na4225_SetOsd(boolean  b);
+    public static native void na4225_ReadOsd();
+    //设备图像翻转
+    public static native void na4225_SetReversal(boolean  b);
+    public static native void na4225_ReadReversal();
+    //设置录像分段时间 - 0  1min  1  - 3min  2 - 5min
+    public static native void na4225_SetRecordTime(int n);
+    public static native void na4225_ReadRecordTime();
+    //格式化SD卡
+    public static native void na4225_FormatSD();
+    //读取固件版本信息
+    public static native void na4225_ReadFireWareVer();
+    //恢复出厂设置
+    public static native void na4225_ResetDevice();
+
+
+
+
+
 
     /*
         APP读取状态信息
@@ -279,7 +312,14 @@ public class wifination {
 //的SD卡中的视频文件缩略图,调用次函数后,SDK会回调 GetThumb(byte[] data,String sFilename), data 是缩略图数据,filename是表明是哪个视频文件
 //一般,我们在调用naGetVideoDir()时, 在回调函数GetFiles(byte[] filesname)得到文件名,在调用此函数来获取缩略图
     public static native int naGetThumb(String filename);
+
+
+
+
     public static native int naCancelGetThumb();
+
+    //获取手机中视频文件的缩略图,添加这个函数是因为有时手机的系统函数兼容性不会，有时无法获取到缩略图。
+    private static native int naGetVideoThumbnailB(String filename,Bitmap bmp);
 
 
     public static native  void naSetDispStyle(int nType); //0-6
@@ -413,13 +453,23 @@ public class wifination {
     public static native boolean naStopReadUdp();
     private static  void onUdpRevData(byte[] data)
     {
-
-
          if(!gp4225_Device.GP4225_PressData(data)) {
              EventBus.getDefault().post(data, "onUdpRevData");
          }
     }
 
+
+
+    public static Bitmap naGetVideoThumbnail(String filename)
+    {
+        Bitmap bitmap = Bitmap.createBitmap(100,100, Bitmap.Config.ARGB_8888);
+        int re = naGetVideoThumbnailB(filename,bitmap);
+        if(re == 0)
+            return bitmap;
+        else
+            return null;
+
+    }
 
 
 
@@ -828,6 +878,22 @@ public class wifination {
         EventBus.getDefault().post(n, "Key_Pressed");
     }
 
+   //返回手势识别的300*300 图像，用 C来处理缩放用来提供效率
+    private static void GestureBmp(int i)
+    {
+
+        if(bGesture)
+        {
+            if(sig!=null) {
+                if(!sig.isbBusy()) {
+                    ByteBuffer buf = wifination.mDirectBuffer;
+                    buf.rewind();
+                    Gesture_bmp.copyPixelsFromBuffer(buf);
+                    sig.GetNumber(Gesture_bmp);
+                }
+            }
+        }
+    }
 
 
     // 获取一帧图像
@@ -844,11 +910,6 @@ public class wifination {
         bmp.copyPixelsFromBuffer(buf);    //
         if(bRevBmp)
             EventBus.getDefault().post(bmp, "ReviceBMP");
-        if(bGesture)
-        {
-            if(sig!=null)
-                sig.GetNumber(bmp);
-        }
     }
 
     ///////////video Media

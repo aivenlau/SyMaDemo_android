@@ -12,9 +12,13 @@
 #define LOGI_EU(...) __android_log_print(ANDROID_LOG_INFO,LOG_TAG,__VA_ARGS__)
 #define LOGW_EU(...) __android_log_print(ANDROID_LOG_WARN,LOG_TAG,__VA_ARGS__)
 
-typedef struct Instance
-{
-  	//顶点着色器位置数据引用
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+typedef struct Instance {
+	//顶点着色器位置数据引用
 	unsigned int maPositionHandle;
 	//顶点着色器纹理坐标引用
 	unsigned int maTexCoorHandle;
@@ -48,14 +52,13 @@ typedef struct Instance
 	unsigned int nDispType;
 
 
-
 } Instance;
 
 /**
  * 初始化着色器
  */
 GLint
-initShader(const char * strShaderCode, unsigned int shaderType);
+initShader(const char *strShaderCode, unsigned int shaderType);
 
 /**
  * 检查着色器初始化状态
@@ -67,7 +70,7 @@ checkInitShader(GLint pShader);
  * 初始化渲染程序
  */
 GLint
-initProgram(GLuint* shaderArray, GLint size);
+initProgram(GLuint *shaderArray, GLint size);
 
 /**
  * 检查程序链接状态
@@ -75,5 +78,8 @@ initProgram(GLuint* shaderArray, GLint size);
 GLint
 checkLinkProgram(GLint pProgram);
 
+#ifdef __cplusplus
+}
+#endif
 
 #endif

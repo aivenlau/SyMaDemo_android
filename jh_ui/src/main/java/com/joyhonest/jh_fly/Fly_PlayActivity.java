@@ -2,38 +2,26 @@ package com.joyhonest.jh_fly;
 
 import android.Manifest;
 import android.animation.ObjectAnimator;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-//import android.support.v4.FragmentManager;
-//import android.support.v4.FragmentTransaction;
-
 import android.content.DialogInterface;
-
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-
 import android.location.Location;
-
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
-
 import android.support.annotation.NonNull;
-
-
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
-
 import android.view.View;
-
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 
 import com.joyhonest.jh_ui.DispPhoto_Fragment;
 import com.joyhonest.jh_ui.DispVideo_Fragment;
@@ -41,20 +29,15 @@ import com.joyhonest.jh_ui.JH_App;
 import com.joyhonest.jh_ui.MyControl;
 import com.joyhonest.jh_ui.MyFilesItem;
 import com.joyhonest.jh_ui.MyItemData;
-
 import com.joyhonest.jh_ui.PermissionAsker;
-
 import com.joyhonest.jh_ui.R;
 import com.joyhonest.wifination.JH_GLSurfaceView;
-
 import com.joyhonest.wifination.MyThumb;
-import com.joyhonest.wifination.fly_cmd;
 import com.joyhonest.wifination.jh_dowload_callback;
 import com.joyhonest.wifination.wifination;
 
 import org.simple.eventbus.EventBus;
 import org.simple.eventbus.Subscriber;
-import org.w3c.dom.Text;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -63,6 +46,9 @@ import java.lang.ref.WeakReference;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
+//import android.support.v4.FragmentManager;
+//import android.support.v4.FragmentTransaction;
 
 public class Fly_PlayActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -836,7 +822,6 @@ public class Fly_PlayActivity extends AppCompatActivity implements View.OnClickL
 
     @Subscriber(tag = "DownloadFile")
     private void DownloadFile(jh_dowload_callback dowload) {
-        //Log.v("abc",dowload.sFileName+"   "+dowload.nPercentage+"%");
         if (JH_App.bBrowSD && !JH_App.bBrowPhoto) {
             for (MyItemData data : JH_App.mGridList) {
                 if (data.sSDPath.compareToIgnoreCase(dowload.sFileName) == 0) {
@@ -1760,7 +1745,8 @@ public class Fly_PlayActivity extends AppCompatActivity implements View.OnClickL
     @Subscriber(tag="GetGueset")
     private void GetGueset(String strID)
     {
-        //Log.e("GetGueset","GetGueset = "+strID);
+       // if(strID.length()!=0)
+       //     Log.e("GetGueset","GetGueset = "+strID);
         if(strID.equalsIgnoreCase("D2"))
         {
             nKeyN++;
@@ -1770,8 +1756,6 @@ public class Fly_PlayActivity extends AppCompatActivity implements View.OnClickL
             }
             if(nKeyN==2)
             {
-                Log.e("GetGueset","GetGueset = "+strID);
-                Log.e("GetGueset","GetGueset = "+strID);
                 //F_Photo();
             }
         }

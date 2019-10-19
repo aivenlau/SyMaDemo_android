@@ -189,6 +189,8 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
                 finish();
             }
         }).askPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
+
+        //F_Test();
     }
 
 
@@ -200,7 +202,7 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
 
     private void F_Init() {
         MyControl.bFlyType = false;
-        wifination.F_AdjBackGround(this, R.mipmap.loginbackground_jh);
+        //wifination.F_AdjBackGround(this, R.mipmap.loginbackground_jh);
         JH_App.checkDeviceHasNavigationBar(this);
         JH_App.F_Clear_not_videoFiles();
         glSurfaceView = (JH_GLSurfaceView) findViewById(R.id.surfaceView_gl);
@@ -249,6 +251,30 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
             imageView.setBackgroundResource(R.mipmap.wifistrength_0_jh);
         }
 
+    }
+
+    int nKeyN=0;
+    @Subscriber(tag="GetGueset")
+    private void GetGueset(String strID)
+    {
+
+        if(strID.equalsIgnoreCase("D2"))
+        {
+            nKeyN++;
+            if(nKeyN>5)
+            {
+                nKeyN=5;
+            }
+            if(nKeyN==1)
+            {
+                //Log.e("GetGueset","GetGueset = "+strID);
+                //F_Photo();
+            }
+        }
+        else
+        {
+            nKeyN=0;
+        }
     }
 
     @Subscriber(tag = "OnGetGP_Status")
@@ -567,7 +593,7 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
             return;
         if (openHandler != null) {
             wifination.naDisConnectedTCP();
-            wifination.naStopRecord_All();
+            //wifination.naStopRecord_All();
             wifination.naStop();
             wifination.release();
             EventBus.getDefault().unregister(this);
@@ -659,15 +685,11 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
         if (BuildConfig.D_Debug) {
             String ss = "";
             if (dowload.nError != 0) {
-                //main_fragment.F_DispInfo("Error:" + n)
                 ss =    dowload.sFileName;
-
             } else {
                 ss = dowload.sFileName + "  DownLod " + dowload.nPercentage + "‰";
-
             }
             main_fragment.F_DispInfo(ss);
-            //Log.e("TAG", ss);
         } else {
             if (JH_App.bBrowSD && !JH_App.bBrowPhoto) {
                 for (MyItemData data : JH_App.mGridList) {
@@ -1852,7 +1874,18 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
 
     String sFile__ = "";
 
+    @Subscriber(tag = "GP4225_RevFiles")
+    private  void GP4225_RevFiles(GP4225_Device.GetFiles files_)
+    //private  void GP4225_RevFiles(String str)
+    {
 
+        Log.e("ABCDEFG","-------");
+//        GP4225_Device.MyFile  ff = files.get(0);
+//        //if(files.size()<20)
+//        {
+//            Log.e("ABCDEFG","inx1 = "+ff.nInx1+" inx2 = "+ff.nInx2+" size ="+files.size());
+//        }
+    }
 
     @Subscriber(tag = "GP4225_RevFile")
     private  void GP4225_RevFile(GP4225_Device.MyFile file)
@@ -1866,5 +1899,22 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+
+
+
+    private void F_Test()
+    {
+        test_Handler.post(test_Runnable);
+    }
+
+
+    Handler  test_Handler = new Handler();
+    Runnable test_Runnable = new Runnable() {
+        @Override
+        public void run() {
+            wifination.na4225_ReadStatus();
+            test_Handler.postDelayed(this,20);
+        }
+    };
 
 }

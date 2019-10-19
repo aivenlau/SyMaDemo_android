@@ -106,15 +106,23 @@ public class AudioEncoder implements AudioCodec {
                 e.printStackTrace();
                 return false;
             }
+            try {
+                int minBufferSize = AudioRecord.getMinBufferSize(KEY_SAMPLE_RATE, CHANNEL_MODE,
+                        AUDIO_FORMAT) * 2;
+                mRecord = new AudioRecord(MediaRecorder.AudioSource.MIC,
+                        KEY_SAMPLE_RATE, CHANNEL_MODE, AUDIO_FORMAT, minBufferSize);
+                int buffSize = Math.min(4096, minBufferSize);
+                mFrameSize = buffSize;
+                mBuffer = new byte[mFrameSize];
+                mRecord.startRecording();
+            }
+            catch (Exception e)
+            {
+                mRecord = null;
+                mEncoder = null;
+                return false;
+            }
 
-            int minBufferSize = AudioRecord.getMinBufferSize(KEY_SAMPLE_RATE, CHANNEL_MODE,
-                    AUDIO_FORMAT) * 2;
-            mRecord = new AudioRecord(MediaRecorder.AudioSource.MIC,
-                    KEY_SAMPLE_RATE, CHANNEL_MODE, AUDIO_FORMAT, minBufferSize);
-            int buffSize = Math.min(4096, minBufferSize);
-            mFrameSize = buffSize;
-            mBuffer = new byte[mFrameSize];
-            mRecord.startRecording();
             return true;
         }
 

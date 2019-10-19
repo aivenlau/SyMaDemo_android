@@ -10,7 +10,6 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found OpenCV: /WORK/ffmpeg/OpenCV-android-sdk (found version "3.4.1") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /WORK2/SyMaDemo_android/app/.cxx/cmake/debug/arm64-v8a

@@ -1,0 +1,26 @@
+[1/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/FFMpegPlayerCore.cpp.o
+[2/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/FFmpegMusic.cpp.o
+[3/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/FFmpegVideo.cpp.o
+[4/26] Building C object CMakeFiles/jh_wifi.dir/src/main/cpp/GL/CameraOpenGLES.c.o
+[5/26] Building C object CMakeFiles/jh_wifi.dir/src/main/cpp/GL/cameraShader.c.o
+[6/26] Building C object CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles/esUtil.c.o
+[7/26] Building C object CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles/matrix.c.o
+[8/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/GetVideoThumbnail.cpp.o
+[9/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/JH_TestInfo.cpp.o
+[10/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/JPEG_BUFFER.cpp.o
+[11/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/MyDownLoad_GKA.cpp.o
+[12/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/MyFrame.cpp.o
+[13/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/MyMediaCoder.cpp.o
+[14/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/MyRevBuffer.cpp.o
+[15/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/MySocketData.cpp.o
+[16/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/MySocket_GKA.cpp.o
+[17/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/MySonix.cpp.o
+[18/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/OnLinePlayer.cpp.o
+[19/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/OpenCV_Focusing.cpp.o
+[20/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/RTL_DownLoad.cpp.o
+[21/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/imageutils_jni.cc.o
+[22/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/jh_wifi.cpp.o
+[23/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/myRTP.cpp.o
+[24/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/rgb2yuv.cc.o
+[25/26] Building CXX object CMakeFiles/jh_wifi.dir/src/main/cpp/yuv2rgb.cc.o
+[26/26] Linking CXX shared library ../../../../build/intermediates/cmake/release/obj/arm64-v8a/libjh_wifi.so

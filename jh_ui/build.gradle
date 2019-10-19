@@ -47,5 +47,6 @@ dependencies {
 
     implementation 'org.simple:androideventbus:1.0.5.1'
     implementation 'org.tensorflow:tensorflow-android:1.13.1'
+    //implementation 'org.tensorflow:tensorflow-android:+'
 
 }

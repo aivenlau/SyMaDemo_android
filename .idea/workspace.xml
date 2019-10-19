@@ -2,52 +2,109 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config>
-        <pickBest>false</pickBest>
-        <target>android-25</target>
-      </config>
+      <config />
     </shared>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-    <option name="SHOW_AS_SECONDS_SINCE_EPOCH" value="true" />
-  </component>
-  <component name="AvailableLibraryUpdateStorage">
-    <last-search-timestamp>1560131838641</last-search-timestamp>
-  </component>
-  <component name="CMakeSettings">
-    <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fbf7360-da3a-4b40-a494-2341116135a5" name="Default" comment="">
+    <list default="true" id="2a74a655-4b27-4816-a872-4806ec94a48d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/GetVideoThumbnail.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/FFMpegPlayerCore.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/FFmpegMusic.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/FFmpegVideo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/GL/CameraOpenGLES.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/GL/cameraShader.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles/esUtil.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles/matrix.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/JH_TestInfo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/JPEG_BUFFER.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/MyDownLoad_GKA.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/MyFrame.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/MyMediaCoder.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/MyRevBuffer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/MySocketData.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/MySocket_GKA.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/MySonix.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/OnLinePlayer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/OpenCV_Focusing.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/RTL_DownLoad.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/imageutils_jni.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/jh_wifi.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/myRTP.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/rgb2yuv.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/jh_wifi.dir/src/main/cpp/yuv2rgb.cc.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_jh_wifi_arm64-v8a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_jh_wifi_arm64-v8a.stdout.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/json_generation_record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/FFMpegPlayerCore.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/FFmpegMusic.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/FFmpegVideo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/GL/CameraOpenGLES.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/GL/cameraShader.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles/esUtil.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles/matrix.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/JH_TestInfo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/JPEG_BUFFER.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/MyDownLoad_GKA.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/MyFrame.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/MyMediaCoder.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/MyRevBuffer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/MySocketData.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/MySocket_GKA.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/MySonix.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/OnLinePlayer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/OpenCV_Focusing.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/RTL_DownLoad.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/imageutils_jni.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/jh_wifi.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/myRTP.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/rgb2yuv.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jh_wifi.dir/src/main/cpp/yuv2rgb.cc.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_jh_wifi_armeabi-v7a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_jh_wifi_armeabi-v7a.stdout.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json" afterDir="false" />
@@ -55,7 +112,6 @@
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/json_generation_record.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json" afterDir="false" />
@@ -63,76 +119,41 @@
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/json_generation_record.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/json_generation_record.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/MyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/FFMpegPlayerCore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/FFMpegPlayerCore.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/GL/opengles/esUtil.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/GL/opengles/esUtil.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/GL/opengles/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/GL/opengles/matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/MyRevBuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/MyRevBuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/MySocketData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/MySocketData.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/MySocketData.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/MySocketData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/MySocket_GKA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/MySocket_GKA.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/MySonix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/MySonix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/RTL_DownLoad.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/RTL_DownLoad.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/jh_wifi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/jh_wifi.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/joyhonest/symademo/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/joyhonest/symademo/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jh_ui/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jh_ui/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jh_ui/src/main/assets/frozen_inference_graph.pb" beforeDir="false" afterPath="$PROJECT_DIR$/jh_ui/src/main/assets/frozen_inference_graph.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_fly/Fly_PlayActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_fly/Fly_PlayActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/PlayActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/PlayActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/main_fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/main_fragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/AudioEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/AudioEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/GP4225_Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/GP4225_Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/ObjectDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/ObjectDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/wifination.java" beforeDir="false" afterPath="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/wifination.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/jh_ui/build/" />
+    <ignored path="$PROJECT_DIR$/app/.cxx/" />
     <ignored path="$PROJECT_DIR$/app/.externalNativeBuild/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/apk_list/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/blame/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/check-libraries/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/check-manifest/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/checkDebugClasspath/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/cmake/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/compatible_screen_manifest/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/instant_run_merged_manifests/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/javac/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/jniLibs/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/lint_jar/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/merged_assets/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/merged_manifests/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/prebuild/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/processed_res/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/shader_assets/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/shaders/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/split_list/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/transforms/" />
-    <ignored path="$PROJECT_DIR$/app/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/app/build/tmp/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/aapt_friendly_merged_manifests/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/annotation_processor_list/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/annotations_typedef_file/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/annotations_zip/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/blame/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/check-manifest/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/consumer_proguard_file/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/intermediate-jars/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/javac/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/jniLibs/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/library_and_local_jars_jni/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/library_assets/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/lint_jar/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/merged_manifests/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/packaged-classes/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/packaged_res/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/public_res/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/rs/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/shader_assets/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/shaders/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/intermediates/transforms/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/jh_ui/build/tmp/" />
+    <ignored path="$PROJECT_DIR$/app/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -146,79 +167,110 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view>
-          <tree_state>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="SyMaDemo_android" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-            </PATH>
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="SyMaDemo" />
+    <favorites_list name="SyMaDemo_android" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/MyAdapter.java">
+        <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/wifination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1959">
-              <caret line="150" column="40" lean-forward="true" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
+            <state relative-caret-position="50">
+              <caret line="448" selection-start-line="448" selection-end-line="448" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle.properties">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/jh_wifi.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+            <state relative-caret-position="125580">
+              <caret line="8372" column="55" selection-start-line="8372" selection-start-column="55" selection-end-line="8372" selection-end-column="55" />
+              <folding>
+                <element signature="e#64#84#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/VideoMediaCoder.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/GetVideoThumbnail.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="157" column="53" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
+            <state relative-caret-position="2640">
+              <caret line="176" column="43" selection-start-line="176" selection-start-column="43" selection-end-line="176" selection-end-column="43" />
+              <folding>
+                <element signature="e#45#65#0" expanded="true" />
+                <element signature="e#128#155#0" expanded="true" />
+                <element signature="e#252#268#0" expanded="true" />
+                <element signature="e#1481#1499#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/media/MediaCodecInfo.java">
+        <entry file="file:///WORK/ffmpeg/ffmpeglib/include/libavcodec/avcodec.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3090">
-              <caret line="239" column="32" selection-start-line="239" selection-start-column="32" selection-end-line="239" selection-end-column="32" />
+            <state relative-caret-position="26610">
+              <caret line="1774" column="13" selection-start-line="1774" selection-start-column="13" selection-end-line="1774" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///WORK/ffmpeg/ffmpeglib/include/libavutil/pixfmt.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/main_fragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13575">
+              <caret line="907" column="40" selection-start-line="907" selection-start-column="40" selection-end-line="907" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/GP4225_Device.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3690">
+              <caret line="251" column="79" selection-start-line="251" selection-start-column="54" selection-end-line="251" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/AudioEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/PlayActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8340">
+              <caret line="596" selection-start-line="596" selection-end-line="596" />
             </state>
           </provider>
         </entry>
@@ -226,99 +278,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/cpp/Defines.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/FFMpegPlayerCore.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13755">
-              <caret line="917" column="20" selection-start-line="917" selection-start-column="20" selection-end-line="917" selection-end-column="20" />
-              <folding>
-                <element signature="e#48#68#0" expanded="true" />
-                <element signature="e#366#384#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/FFMpegPlayerCore.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="198" column="30" selection-start-line="198" selection-start-column="20" selection-end-line="198" selection-end-column="30" />
-              <folding>
-                <element signature="e#233#264#0" expanded="true" />
-                <element signature="e#537#555#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rev_socket</find>
-      <find>Clear</find>
-      <find>list0</find>
-      <find>jpgbuffer</find>
-      <find>GetData_A</find>
-      <find>IC_NO</find>
-      <find>toString</find>
-      <find>FindHead</find>
-      <find>RevSendData</find>
-      <find>SOCK_CLOEXEC</find>
-      <find>F_FindJpg</find>
-      <find>m_mutex</find>
-      <find>jpg0</find>
-      <find>buffer_</find>
-      <find>buffer</find>
-      <find>GK_tcp_NoticeSocket</find>
-      <find>fuc_getData</find>
-      <find>bNotice</find>
-      <find>m_codecCtx</find>
-      <find>naSnap</find>
-      <find>IC_GPRTPC</find>
+      <find>avformat_open_input</find>
+      <find>na4225_DeleteFile</find>
+      <find>na4225_de</find>
+      <find>naStartReadUdp</find>
+      <find>na4225_ReadStatus</find>
+      <find>sVer</find>
+      <find>Get gp4225 status!</find>
+      <find>Handler_Read4225</find>
+      <find>StartRea</find>
+      <find>naStopRecord</find>
+      <find>naSetRecordAudio</find>
+      <find>prepare</find>
       <find>naStartRecord</find>
-      <find>bRocordWHisSeted</find>
-      <find>bRecord720P</find>
-      <find>Init</find>
-      <find>naStartRe</find>
-      <find>InitEncoder</find>
-      <find>COLOR_FormatYUV420Flexible</find>
-      <find>chooseVideoEncoder</find>
-      <find>OpenCV_LIBS</find>
+      <find>naStop</find>
+      <find>naStopRecord_All</find>
+      <find>naStart</find>
+      <find>naStopRe</find>
+      <find>naStop(</find>
+      <find>F_StopRecordAll</find>
+      <find>msg[6] = 0x03</find>
+      <find>Key_Pressed</find>
+      <find>OnKeyPress</find>
+      <find>naStopRec</find>
+      <find>key_mid</find>
+      <find>na</find>
+      <find>F_SendKey2Jave</find>
+      <find>na4225_</find>
+      <find>naGetVideoThumbnailB</find>
+      <find>naGetVideoThumbnail</find>
+      <find>onClick</find>
     </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>wifi_camera</replace>
-      <replace>wificamera</replace>
-      <replace>com.joyhonest.wifination</replace>
-      <replace>com_joyhonest_wifination</replace>
-      <replace>nullptr</replace>
-      <replace>connected_tcp</replace>
-      <replace>stdio.h</replace>
-      <replace>stdlib.h</replace>
-      <replace>time.h</replace>
-      <replace>8000</replace>
-    </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/app/src</dir>
-      <dir>$PROJECT_DIR$/app</dir>
+      <dir>$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_fly</dir>
     </dirStrings>
   </component>
   <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
     <option name="KEY_STORE_PATH" value="/WORK/aivenlau.jks" />
     <option name="KEY_ALIAS" value="CAPPEC" />
     <option name="REMEMBER_PASSWORDS" value="true" />
@@ -330,57 +336,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/wifi_camera/wifination/fly_cmd.java" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/wifi_camera/wifination/Classifier.java" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/wifi_camera/wifination/AudioEncoder.java" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/Path_Fragment.java" />
+        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/JH_ObjectDetectionAPIModel.java" />
         <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_fly/Fly_PlayActivity.java" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/MyControl.java" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_fly/FlyPathFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/joyhonest/symademo/SplashActivity.java" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/wificamera/wifination/wifination.java" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/wificamera/wifination/AudioCodec.java" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/MyDownLoad_GKA.h" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/MyDownLoad_GKA.cpp" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/res/layout/fragment_main_fragment_jh.xml" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/jh_dowload_callback.java" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/ffmpeginclude/libavutil/time.h" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/MyRevBuffer.h" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/OnLinePlayer.h" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/JH_TestInfo.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/GL/CameraOpenGLES.c" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/FFmpegVideo.h" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/FFmpegMusic.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/FFmpegMusic.h" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/MySonix.h" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/JH_App.java" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/GP4225_DeviceFile.java" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/GP4225_FileStruct.h" />
-        <option value="$PROJECT_DIR$/jh_ui/build.gradle" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/GP4225_Device.java" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/main_fragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/FFmpegVideo.cpp" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/wifination.java" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/MyRevBuffer.cpp" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/PlayActivity.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/gradle.properties" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/RTL_DownLoad.cpp" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/Storage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/OnLinePlayer.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/MySonix.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/JPEG_BUFFER.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/FFMpegPlayerCore.h" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/Defines.h" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/MySocket_GKA.h" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/MySocket_GKA.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/FFMpegPlayerCore.cpp" />
         <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/VideoMediaCoder.java" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/jh_wifi.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/FFMpegPlayerCore.cpp" />
+        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/ObjectDetector.java" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/MySocket_GKA.cpp" />
         <option value="$PROJECT_DIR$/app/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/MyAdapter.java" />
+        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/GP4225_Device.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/joyhonest/symademo/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/AudioEncoder.java" />
+        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/PlayActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/GetVideoThumbnail.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/jh_wifi.cpp" />
+        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/wifination.java" />
+        <option value="$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/main_fragment.java" />
       </list>
     </option>
   </component>
@@ -390,62 +360,14 @@
     <option name="width" value="2560" />
     <option name="height" value="1359" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <showMembers ProjectPane="false" />
-      <hideEmptyPackages AndroidView="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SyMaDemo_android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SyMaDemo_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="SyMaDemo_android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SyMaDemo_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="SyMaDemo_android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SyMaDemo_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SyMaDemo_android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SyMaDemo_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SyMaDemo_android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SyMaDemo_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-              <item name="merged_native_libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SyMaDemo_android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SyMaDemo_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="captures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SyMaDemo_android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -462,37 +384,11 @@
               <item name="SyMaDemo_android" type="1abcf292:AndroidViewProjectNode" />
               <item name="jh_ui" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="jh_ui" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="wifination" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="SyMaDemo_android" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-            <path>
-              <item name="SyMaDemo_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="External Build Files" type="62ab2ea3:ExternalBuildFilesGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SyMaDemo_android" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
-          <expand>
-            <path>
-              <item name="SyMaDemo_android" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -501,30 +397,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/app/release/app-release.apk" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
-    <property name="ExportApk.BuildType" value="release" />
     <property name="ExportApk.BuildVariants" value="release" />
-    <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="android.project.structure.last.selected" value="app" />
-    <property name="android.project.structure.proportion" value="0.15" />
-    <property name="device.picker.selection" value="R28M13HPABN" />
-    <property name="project.structure.last.edited" value="Dependencies" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
-  </component>
-  <component name="PsdUISettings">
-    <option name="BUILD_VARIANTS_TAB" value="Flavors" />
-    <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -538,11 +415,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-    </configuration>
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -550,8 +423,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="app" />
+    <configuration name="SyMaDemo_android-app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="SyMaDemo_android-app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -564,7 +437,7 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
@@ -595,7 +468,7 @@
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -603,19 +476,57 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -624,11 +535,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0fbf7360-da3a-4b40-a494-2341116135a5" name="Default" comment="" />
-      <created>1496451428716</created>
+      <changelist id="2a74a655-4b27-4816-a872-4806ec94a48d" name="Default Changelist" comment="" />
+      <created>1569297128017</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1496451428716</updated>
+      <updated>1569297128017</updated>
     </task>
     <servers />
   </component>
@@ -642,438 +553,215 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1359" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="2560" height="1359" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79573935" visible="true" weight="0.25893566" />
-      <window_info id="Structure" order="1" sideWeight="0.20300752" side_tool="true" weight="0.25893566" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Captures" order="3" sideWeight="0.17004049" side_tool="true" weight="0.25893566" />
-      <window_info x="24" y="612" width="489" height="1215" id="Build Variants" order="4" sideWeight="0.20426065" side_tool="true" weight="0.25893566" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.20300752" side_tool="true" weight="0.25893566" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.7553192" visible="true" weight="0.27680698" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" sideWeight="0.24468085" side_tool="true" visible="true" weight="0.27680698" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
-      <window_info id="Resources Explorer" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.28117552" weight="0.38906753" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.46822876" weight="0.4750804" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4725973" weight="0.32636657" />
-      <window_info anchor="bottom" id="Gradle Console" order="7" sideWeight="0.6985703" side_tool="true" weight="0.301381" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" sideWeight="0.71088165" weight="0.48151127" />
-      <window_info anchor="bottom" id="Android Monitor" order="9" sideWeight="0.4364575" weight="0.4313566" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3903892" side_tool="true" visible="true" weight="0.3585209" />
-      <window_info anchor="bottom" id="Logcat" order="11" sideWeight="0.6389992" weight="0.4381029" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.47815728" weight="0.32717043" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.5909452" weight="0.3681672" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.2847498" weight="0.301381" />
-      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.6096108" visible="true" weight="0.3585209" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" weight="0.32962668" />
-      <window_info anchor="right" id="Android Model" order="5" side_tool="true" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.14733917" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Preview" order="9" weight="0.324861" />
-      <window_info anchor="right" id="Color Manager" order="10" weight="0.32956383" />
-      <window_info anchor="right" id="Assistant" order="11" weight="0.32962668" />
+      <window_info id="Favorites" order="8" sideWeight="0.501182" side_tool="true" weight="0.27680698" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4988086" weight="0.32877815" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.46505162" weight="0.31993568" />
+      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.4992057" weight="0.32925835" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.60841936" side_tool="true" visible="true" weight="0.31993568" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.3915806" visible="true" weight="0.31993568" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.38522637" weight="0.22990353" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.32962668" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80713487" visible="true" weight="0.19420175" />
-      <window_info id="Structure" order="1" weight="0.24980143" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Captures" order="3" weight="0.24980143" />
-      <window_info x="24" y="612" width="489" height="1215" id="Build Variants" order="4" sideWeight="0.1928651" side_tool="true" visible="true" weight="0.19420175" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Image Layers" order="6" />
-      <window_info id="Favorites" order="7" sideWeight="0.18536586" side_tool="true" weight="0.19420175" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.32208103" weight="0.3415638" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4598888" weight="0.28148147" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4853058" weight="0.32839507" />
-      <window_info anchor="bottom" id="Android Profiler" order="7" sideWeight="0.5710882" weight="0.47489712" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.64535344" side_tool="true" visible="true" weight="0.2617284" />
-      <window_info anchor="bottom" id="Android Monitor" order="9" sideWeight="0.4364575" weight="0.4313566" />
-      <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.61318505" weight="0.40246913" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.35464653" visible="true" weight="0.2617284" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.45671168" weight="0.37037036" />
-      <window_info anchor="bottom" id="Gradle Console" order="14" sideWeight="0.64416206" side_tool="true" weight="0.4823045" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
-      <window_info anchor="right" id="Android Model" order="4" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Gradle" order="7" weight="0.20969023" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Preview" order="9" weight="0.5373312" />
-      <window_info anchor="right" id="Color Manager" order="10" weight="0.32956383" />
-    </layout-to-restore>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/main_fragment.java</url>
+          <line>884</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/main_fragment.java</url>
+          <line>740</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/app/src/main/cpp/GetVideoThumbnail.cpp</url>
+          <line>162</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
-      <configuration name="AndroidRunConfigurationType">
-        <watch expression="ffmpegMusic.audio_start_time" language="ObjectiveC" />
-        <watch expression="start_time" language="ObjectiveC" />
-        <watch expression="queue.size()" language="ObjectiveC" />
-        <watch expression="codec-&gt;sample_rate" language="ObjectiveC" />
-        <watch expression="codec-&gt;channel_layout" language="ObjectiveC" />
-        <watch expression="data[0]" language="ObjectiveC" />
-        <watch expression="data[1]" language="ObjectiveC" />
-        <watch expression="data[2]" language="ObjectiveC" />
-        <watch expression="pCodecCtx" language="ObjectiveC" />
-        <watch expression="nFileRevCont" language="ObjectiveC" />
-        <watch expression="packet" language="ObjectiveC" />
-        <watch expression="gp4225File.nFileLen" language="ObjectiveC" />
-        <watch expression="nbufferInx" language="ObjectiveC" />
-        <watch expression="buffer_" language="ObjectiveC" />
-        <watch expression="stream-&gt;r_frame_rate.num/stream-&gt;r_frame_rate.den" language="ObjectiveC" />
-      </configuration>
       <configuration name="app-java">
-        <watch expression="data" language="JAVA" />
-        <watch expression="data[inx]" language="JAVA" />
-        <watch expression="data[inx + 1]" language="JAVA" />
-        <watch expression="data[inx +2]" language="JAVA" />
-        <watch expression="data[inx + 3]" language="JAVA" />
-        <watch expression="intValues[i]" language="JAVA" />
-        <watch expression="outputNumDetections" language="JAVA" />
-        <watch expression="bytes.length" language="JAVA" />
-        <watch expression="cmd" language="JAVA" />
-        <watch expression="view" language="JAVA" />
-        <watch expression="But_KeyStop" language="JAVA" />
+        <watch expression="bytes" language="JAVA" />
+        <watch expression="data[11]" language="JAVA" />
+        <watch expression="data[10]" language="JAVA" />
+        <watch expression="data.length" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>buf</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>v32</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dat</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
     <expressions id="watch">
       <expression>
-        <expression-string>data[inx + 3]</expression-string>
+        <expression-string>data.length</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data[inx +2]</expression-string>
+        <expression-string>data[11]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data[inx + 1]</expression-string>
+        <expression-string>data[10]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data[inx]</expression-string>
+        <expression-string>bytes</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>data</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>But_KeyStop</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>view</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ffmpegMusic.audio_start_time</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>para</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>stream-&gt;codecpar-&gt;codec_id</expression-string>
-        <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/GP4225_FileStruct.h">
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad8a1f15c1788ff0373153c3b6a07d89/tensorflow-android-1.13.1/jars/classes.jar!/org/tensorflow/contrib/android/TensorFlowInferenceInterface.class" />
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_fly/FlyPlayFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="10710">
+          <caret line="749" column="17" selection-start-line="749" selection-start-column="17" selection-end-line="749" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/unistd.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/FFmpegMusic.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="252" column="21" selection-start-line="252" selection-start-column="21" selection-end-line="252" selection-end-column="21" />
-          <folding>
-            <element signature="e#53#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/FFmpegVideo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="221" column="23" selection-start-line="221" selection-start-column="23" selection-end-line="221" selection-end-column="23" />
-          <folding>
-            <element signature="e#52#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MyRevBuffer.h">
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/res/layout/activity_fly_play_jh.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///WORK/ffmpeg/ffmpeglib/include/libavutil/mem.h">
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/AudioCodec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6930">
-          <caret line="462" column="5" selection-start-line="462" selection-start-column="5" selection-end-line="462" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///WORK/ffmpeg/ffmpeglib/include/libavcodec/avcodec.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68790">
-          <caret line="4586" column="5" selection-start-line="4586" selection-start-column="5" selection-end-line="4586" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/DispVideo_Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#2630#2631#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/JH_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2325">
-          <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jh_ui/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jh_ui/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/RTL_DownLoad.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
-          <folding>
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/main_fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="278" column="37" selection-start-line="278" selection-start-column="37" selection-end-line="278" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/PlayActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="137" column="54" selection-start-line="137" selection-start-column="54" selection-end-line="137" selection-end-column="54" />
-          <folding>
-            <element signature="e#3998#4200#0" expanded="true" />
-            <element signature="e#4199#4200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MyRevBuffer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/OnLinePlayer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="407" column="17" selection-start-line="407" selection-start-column="17" selection-end-line="407" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/OnLinePlayer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MySonix.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="117" column="21" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/jh_wifi.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="116" column="58" selection-start-line="116" selection-end-line="116" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/pthread.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="216" column="4" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
+        <state relative-caret-position="75">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/pthread_types.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MySonix.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="1861" column="74" selection-start-line="1861" selection-start-column="37" selection-end-line="1861" selection-end-column="74" />
-          <folding>
-            <element signature="e#45#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/select.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+        <state relative-caret-position="101">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/socket.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="330" column="8" selection-start-line="330" selection-start-column="8" selection-end-line="330" selection-end-column="8" />
+        <state relative-caret-position="4905">
+          <caret line="327" column="17" selection-start-line="327" selection-start-column="17" selection-end-line="327" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14310">
+          <caret line="954" column="40" selection-start-line="954" selection-start-column="40" selection-end-line="954" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///WORK/ffmpeg/libyuv/jni/include/libyuv/scale.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/java/util/TimeZone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2535">
+          <caret line="219" column="15" selection-start-line="219" selection-start-column="15" selection-end-line="219" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="306" column="22" selection-start-line="306" selection-start-column="22" selection-end-line="306" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/mp4v2-2.0.0/include/mp4v2/sample.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3255">
+          <caret line="217" column="5" selection-start-line="217" selection-start-column="5" selection-end-line="217" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/GL/CameraOpenGLES.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="168" column="25" selection-start-line="168" selection-start-column="25" selection-end-line="168" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5850">
+          <caret line="439" column="30" selection-start-line="439" selection-start-column="30" selection-end-line="439" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6045">
+          <caret line="463" column="11" selection-start-line="463" selection-start-column="11" selection-end-line="463" selection-end-column="11" />
+          <folding>
+            <element signature="e#18467#18468#0" expanded="true" />
+            <element signature="e#18552#18553#0" expanded="true" />
+            <element signature="e#19251#19252#0" expanded="true" />
+            <element signature="e#19336#19337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MySocket_GKA.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/GP4225_FileStruct.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MyRevBuffer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MySocket_GKA.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8250">
-          <caret line="550" column="19" selection-start-line="550" selection-start-column="8" selection-end-line="550" selection-end-column="19" />
+        <state relative-caret-position="6900">
+          <caret line="460" column="24" selection-start-line="460" selection-start-column="24" selection-end-line="460" selection-end-column="24" />
           <folding>
             <element signature="e#44#65#0" expanded="true" />
             <element signature="e#472#503#0" expanded="true" />
@@ -1081,156 +769,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MySocket_GKA.h">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="765">
+          <caret line="51" column="46" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MySocketData.cpp">
+    <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="50" />
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/include/__clang_cuda_device_functions.h">
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/MyThumb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24165">
-          <caret line="1611" column="58" selection-start-line="1611" selection-start-column="52" selection-end-line="1611" selection-end-column="58" />
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MySocketData.h">
+    <entry file="file://$PROJECT_DIR$/jh_ui/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="1239">
+          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/JPEG_BUFFER.h">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/jni.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/JPEG_BUFFER.cpp">
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/FFmpegVideo.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="334">
+          <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MyMediaCoder.cpp">
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/OnLinePlayer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="623">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/wifination.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/OnLinePlayer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4665">
-          <caret line="324" column="40" selection-start-line="324" selection-start-column="40" selection-end-line="324" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/jh_wifi.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85245">
-          <caret line="5683" column="21" selection-start-line="5683" selection-start-column="21" selection-end-line="5683" selection-end-column="21" />
+        <state relative-caret-position="703">
+          <caret line="222" column="27" selection-start-line="222" selection-start-column="8" selection-end-line="222" selection-end-column="27" />
           <folding>
-            <element signature="e#64#84#0" expanded="true" />
+            <element signature="e#4019#4200#0" expanded="true" />
+            <element signature="e#4342#4411#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/OpenCV_Focusing.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/OpenCV_Focusing.h">
+    <entry file="file:///WORK/ffmpeg/ffmpeglib/include/libavformat/avformat.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="267">
+          <caret line="2311" column="4" selection-start-line="2311" selection-start-column="4" selection-end-line="2311" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/CMakeLists.txt">
+    <entry file="file:///WORK/ffmpeg/ffmpeglib/include/libavutil/frame.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        <state relative-caret-position="272">
+          <caret line="749" column="7" selection-start-line="749" selection-end-line="749" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/VideoMediaCoder.java">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/bitmap.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="157" column="53" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
+        <state relative-caret-position="1035">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/media/MediaCodecInfo.java">
+    <entry file="file:///WORK/ffmpeg/ffmpeglib/include/libswscale/swscale.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3090">
-          <caret line="239" column="32" selection-start-line="239" selection-start-column="32" selection-end-line="239" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/Defines.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="2775">
+          <caret line="185" column="19" selection-start-line="185" selection-start-column="19" selection-end-line="185" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/FFMpegPlayerCore.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13755">
-          <caret line="917" column="20" selection-start-line="917" selection-start-column="20" selection-end-line="917" selection-end-column="20" />
+        <state relative-caret-position="6975">
+          <caret line="465" column="16" selection-start-line="465" selection-start-column="4" selection-end-line="465" selection-end-column="19" />
           <folding>
-            <element signature="e#48#68#0" expanded="true" />
-            <element signature="e#366#384#0" expanded="true" />
+            <element signature="e#69778#69838#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/FFMpegPlayerCore.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="198" column="30" selection-start-line="198" selection-start-column="20" selection-end-line="198" selection-end-column="30" />
+        <state relative-caret-position="3375">
+          <caret line="225" column="39" selection-start-line="225" selection-start-column="4" selection-end-line="225" selection-end-column="39" />
           <folding>
-            <element signature="e#233#264#0" expanded="true" />
             <element signature="e#537#555#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/JH_App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        <state relative-caret-position="273">
+          <caret line="1038" column="28" selection-start-line="1038" selection-start-column="28" selection-end-line="1038" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/ObjectDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/MyAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/joyhonest/symademo/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1959">
-          <caret line="150" column="40" lean-forward="true" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
+        <state relative-caret-position="1755">
+          <caret line="141" column="10" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MySonix.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29970">
+          <caret line="1998" column="55" selection-start-line="1998" selection-start-column="41" selection-end-line="1998" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/jh_wifi.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/MyRevBuffer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="5" selection-start-line="112" selection-start-column="4" selection-end-line="118" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_fly/Fly_PlayActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/wifination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="448" selection-start-line="448" selection-end-line="448" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/jh_wifi.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125580">
+          <caret line="8372" column="55" selection-start-line="8372" selection-start-column="55" selection-end-line="8372" selection-end-column="55" />
+          <folding>
+            <element signature="e#64#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/GetVideoThumbnail.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="176" column="43" selection-start-line="176" selection-start-column="43" selection-end-line="176" selection-end-column="43" />
+          <folding>
+            <element signature="e#45#65#0" expanded="true" />
+            <element signature="e#128#155#0" expanded="true" />
+            <element signature="e#252#268#0" expanded="true" />
+            <element signature="e#1481#1499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///WORK/ffmpeg/ffmpeglib/include/libavcodec/avcodec.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26610">
+          <caret line="1774" column="13" selection-start-line="1774" selection-start-column="13" selection-end-line="1774" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///WORK/ffmpeg/ffmpeglib/include/libavutil/pixfmt.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/main_fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13575">
+          <caret line="907" column="40" selection-start-line="907" selection-start-column="40" selection-end-line="907" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/GP4225_Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3690">
+          <caret line="251" column="79" selection-start-line="251" selection-start-column="54" selection-end-line="251" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/wifination/AudioEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jh_ui/src/main/java/com/joyhonest/jh_ui/PlayActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8340">
+          <caret line="596" selection-start-line="596" selection-end-line="596" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/Defines.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>

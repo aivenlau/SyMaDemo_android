@@ -109,7 +109,7 @@ int MySocket_GKA::ConnectA(string host_, int port_) {
     host = host_;
     port = port_;
 
-    socketfd = socket(AF_INET, (unsigned int)SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP);
+    socketfd = socket(AF_INET, (int)((unsigned)SOCK_STREAM|(unsigned int)SOCK_CLOEXEC), IPPROTO_TCP);
     if (socketfd == -1) {
         bConnected = false;
         return -1;
@@ -443,14 +443,14 @@ void *MySocket_GKA::ReadData(void *dat) {
         {
             continue;
         }
-        if (!(FD_ISSET(self->socketfd, &set))) {
+
+
+        bzero(buffer, Bufferlen);if (!(FD_ISSET(self->socketfd, &set))) {
             continue;
         }
-
-        bzero(buffer, Bufferlen);
         nRet = (int)recv(self->socketfd, buffer, (size_t)Bufferlen, 0);
         if (nRet <= 0) {
-                LOGE_B("REmote Sockect lose!!!!");
+                LOGE_B("Remote Sockect lose!!!!");
                 shutdown(self->socketfd, 2);
                 close(self->socketfd);
                 self->socketfd = -1;

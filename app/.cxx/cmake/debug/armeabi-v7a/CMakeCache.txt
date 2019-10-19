@@ -196,7 +196,7 @@ Project_BINARY_DIR:STATIC=/WORK2/SyMaDemo_android/app/.cxx/cmake/debug/armeabi-v
 Project_SOURCE_DIR:STATIC=/WORK2/SyMaDemo_android/app
 
 //Dependencies for the target
-jh_wifi_LIB_DEPENDS:STATIC=general;log;general;z;general;GLESv2;general;OpenSLES;general;/WORK/ffmpeg/mp4v2-2.0.0/obj/local/armeabi-v7a/libmp4v2.a;general;/WORK/ffmpeg/libyuv/obj/local/armeabi-v7a/libyuv.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libavformat.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libavdevice.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libavcodec.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libavutil.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libavfilter.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libswresample.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libswscale.a;general;opencv_highgui;general;opencv_features2d;general;opencv_shape;general;opencv_imgcodecs;general;opencv_ml;general;opencv_videoio;general;opencv_dnn;general;opencv_flann;general;opencv_objdetect;general;opencv_core;general;opencv_calib3d;general;opencv_video;general;opencv_superres;general;opencv_photo;general;opencv_imgproc;general;opencv_stitching;general;opencv_videostab;
+jh_wifi_LIB_DEPENDS:STATIC=general;log;general;z;general;jnigraphics;general;GLESv2;general;OpenSLES;general;/WORK/ffmpeg/mp4v2-2.0.0/obj/local/armeabi-v7a/libmp4v2.a;general;/WORK/ffmpeg/libyuv/obj/local/armeabi-v7a/libyuv.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libavformat.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libavdevice.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libavcodec.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libavutil.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libavfilter.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libswresample.a;general;/WORK/ffmpeg/ffmpeglib/armeabi-v7a/libswscale.a;
 
 //Path to a library.
 jnigraphics-lib:FILEPATH=/Users/aiven/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/18/libjnigraphics.so
@@ -328,6 +328,4 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/WORK/ffmpeg/OpenCV-android-sdk][v3.4.1()]
 

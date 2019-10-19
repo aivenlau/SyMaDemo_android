@@ -81,7 +81,6 @@ int MyRevBuffer::SaveBuffer(uint8_t *buffer_,int size)
             if(nLength+size>nCount)
             {
                 size = nCount-nLength;
-                LOGE("bbbbbbbb------bbbbbb");
             }
             memcpy(buf+nLength,buffer_,size);
             delete []buffer;

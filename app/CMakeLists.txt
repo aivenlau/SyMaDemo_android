@@ -99,16 +99,16 @@ ENDIF()
 
 #加入OpenCV
 
-set(OpenCV_STATIC ON) #1
-set(OpenCV_DIR /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni) #2
-find_package(OpenCV REQUIRED) #3
+#set(OpenCV_STATIC ON) #1
+#set(OpenCV_DIR /WORK/ffmpeg/OpenCV-android-sdk/sdk/native/jni) #2
+#find_package(OpenCV REQUIRED) #3
 
 
 target_link_libraries( # Specifies the target library.
                        jh_wifi
                        log
                        z
-                       #jnigraphics
+                       jnigraphics
                        #android
                        #c
                        #dl
@@ -124,7 +124,7 @@ target_link_libraries( # Specifies the target library.
                        /WORK/ffmpeg/ffmpeglib/${ANDROID_ABI}/libavfilter.a
                        /WORK/ffmpeg/ffmpeglib/${ANDROID_ABI}/libswresample.a
                        /WORK/ffmpeg/ffmpeglib/${ANDROID_ABI}/libswscale.a
-                        ${OpenCV_LIBS}    #4
+#                        ${OpenCV_LIBS}    #4
                         )
 
 

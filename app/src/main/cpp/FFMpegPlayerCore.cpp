@@ -529,21 +529,28 @@ int C_FFMpegPlayer::InitMedia(const char *a_path) {
     string spath = a_path;
     transform(spath.begin(), spath.end(), spath.begin(), ::tolower);
     const char *path = spath.c_str();
-    if(nDataType == DATA_Type_H264)
+    int r1 = spath.find("http://");
+    int r2 = spath.find("rtsp:");
+    int r3 = spath.find("file:");
+
+    if(r1 != 0 && r2 != 0 && r3 != 0)
     {
-        InitMediaGK();
-        F_RecreateEnv();
-        return 0;
-    }
-    if(nDataType == DATA_Type_MJPEG)
-    {
-        InitMediaSN();
-        F_RecreateEnv();
-        return 0;
-    }
-    if(nDataType != DATA_Type_NO)
-    {
-        return -1;
+        if(nDataType == DATA_Type_H264)
+        {
+            InitMediaGK();
+            F_RecreateEnv();
+            return 0;
+        }
+        if(nDataType == DATA_Type_MJPEG)
+        {
+            InitMediaSN();
+            F_RecreateEnv();
+            return 0;
+        }
+        if(nDataType != DATA_Type_NO)
+        {
+            return -1;
+        }
     }
 
 
@@ -847,6 +854,7 @@ int C_FFMpegPlayer::Stop() {
 }
 
 //----------------------------------------------------------------------
+extern pthread_mutex_t m_mp4Write_lock;
 
 int C_FFMpegPlayer::WriteMp4Frame(uint8_t *data, int nLen, bool b) {
 
@@ -863,7 +871,9 @@ int C_FFMpegPlayer::WriteMp4Frame(uint8_t *data, int nLen, bool b) {
         data[2] = (uint8_t) ((nL & 0x0000FF00) >> 8);
         data[3] = (uint8_t) ((nL & 0x000000FF));
         {
+            pthread_mutex_lock(&m_mp4Write_lock);
             MP4WriteSample(fileHandle, video, data, (uint32_t) nLen, (MP4Duration) ds, 0, b);
+            pthread_mutex_unlock(&m_mp4Write_lock);
         }
         return 0;
     }
@@ -1065,9 +1075,14 @@ uint16_t ixxxx = 0;
 int64_t nPre = 0;
 
 
+
 bool C_FFMpegPlayer::F_WriteAudio(jbyte *data, int nLen) {
     if (m_bSaveVideo && fileHandle != MP4_INVALID_FILE_HANDLE && music != MP4_INVALID_TRACK_ID) {
-        return MP4WriteSample(fileHandle, music, (const uint8_t *) data, (uint32_t) nLen, MP4_INVALID_DURATION, 0, 1);
+        bool bre;
+        pthread_mutex_lock(&m_mp4Write_lock);
+         bre = MP4WriteSample(fileHandle, music, (const uint8_t *) data, (uint32_t) nLen, MP4_INVALID_DURATION, 0, 1);
+        pthread_mutex_unlock(&m_mp4Write_lock);
+        return  bre;
     } else {
         return false;
     }
@@ -1081,8 +1096,8 @@ void C_FFMpegPlayer::F_DispH264NoBuffer(MySocketData *data) {
 }
 
 
-extern int64_t disp_no;
-extern int64_t start_time;
+//extern int64_t disp_no;
+//extern int64_t start_time;
 extern int nDelayDisplayT;
 
 //extern FILE *testFile;
@@ -1815,6 +1830,7 @@ int C_FFMpegPlayer::CloseVideo() {
 int nSteppp = 0;
 
 void F_SentRevBmp(int32_t wh);
+void F_SentGestureBmp(int32_t wh);
 
 extern int nBufferLen;
 int encord_colorformat;
@@ -2209,12 +2225,80 @@ extern int nTransferWidth;
 extern int nTransferHeight;
 extern AVFrame *pTranFrame;
 
+
+AVFrame *pGestureFrame = nullptr;
+
+static AVFrame *pTmpAvFrame = nullptr;
+
 void C_FFMpegPlayer::F_DispSurface(void) {
 
     bool bSentRevBMP_bak = bSentRevBMP;
+#if 0
     if (bGesture) {
-        bSentRevBMP_bak = true;
+           bSentRevBMP_bak = true;
+        }
+#else
+    if (bGesture) {
+        //bSentRevBMP_bak = true;
+
+        int ww = 300;
+        int hh = 300;
+
+        if(pGestureFrame!= nullptr)
+        {
+            if (pGestureFrame->width != ww || pGestureFrame->height != hh)
+            {
+                av_freep(&pGestureFrame->data[0]);
+                av_frame_free(&pGestureFrame);
+                pGestureFrame = nullptr;
+            }
+        }
+        if(pGestureFrame == nullptr)
+        {
+            pGestureFrame = av_frame_alloc();
+            pGestureFrame->width = ww;
+            pGestureFrame->height = hh;
+            av_image_alloc(pGestureFrame->data, pGestureFrame->linesize, ww,
+                           hh,
+                           AV_PIX_FMT_YUV420P, 4);
+        }
+
+        if (pFrameYUV->width != ww || pFrameYUV->height != hh)   //转换为 设定的尺寸，然后传给应用层。
+        {
+            libyuv::I420Scale(pFrameYUV->data[0], pFrameYUV->linesize[0],
+                              pFrameYUV->data[1], pFrameYUV->linesize[1],
+                              pFrameYUV->data[2], pFrameYUV->linesize[2],
+                              pFrameYUV->width, pFrameYUV->height,
+                              pGestureFrame->data[0], pGestureFrame->linesize[0],
+                              pGestureFrame->data[1], pGestureFrame->linesize[1],
+                              pGestureFrame->data[2], pGestureFrame->linesize[2],
+                              ww, hh,
+                              libyuv::kFilterLinear);
+
+            libyuv::I420ToABGR(pGestureFrame->data[0], pGestureFrame->linesize[0],
+                               pGestureFrame->data[1], pGestureFrame->linesize[1],
+                               pGestureFrame->data[2], pGestureFrame->linesize[2],
+                               Rgbabuffer, pGestureFrame->width * 4,
+                               pGestureFrame->width, pGestureFrame->height);
+        }
+        else
+        {
+            libyuv::I420ToABGR(pFrameYUV->data[0], pFrameYUV->linesize[0],
+                               pFrameYUV->data[1], pFrameYUV->linesize[1],
+                               pFrameYUV->data[2], pFrameYUV->linesize[2],
+                               Rgbabuffer, pFrameYUV->width * 4,
+                               pFrameYUV->width, pFrameYUV->height);
+        }
+        F_SentGestureBmp(ww + hh * 0x10000);
+    } else
+        {
+        if(pGestureFrame!= nullptr) {
+            av_freep(&pGestureFrame->data[0]);
+            av_frame_free(&pGestureFrame);
+            pGestureFrame = nullptr;
+        }
     }
+#endif
     if (bSentRevBMP_bak)
     {
         if (Rgbabuffer != nullptr)
@@ -2281,6 +2365,7 @@ void C_FFMpegPlayer::F_DispSurface(void) {
 //
 //            }
 
+            //pTmpAvFrame
             gl_Frame->width = pFrameYUV->width;
             gl_Frame->height = pFrameYUV->height;
 
