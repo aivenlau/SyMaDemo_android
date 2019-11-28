@@ -53,7 +53,7 @@ public:
     int isPause=1;
     pthread_t playId;//处理线程
     std::vector<AVPacket*> queue;//队列
-   // std::queue<AVPacket*> queueNull;//空队列
+    // std::queue<AVPacket*> queueNull;//空队列
     AVCodecContext *codec;//解码器上下文
 
     SwrContext *swrContext;

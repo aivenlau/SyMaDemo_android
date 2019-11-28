@@ -475,6 +475,15 @@ public class wifination {
 
 ////////////////
 
+
+    private static void OnPlayIsStarting_Callback(int n)
+    {
+          //n !=0  Play is Start  0= Play is over
+        Integer i = n;
+        EventBus.getDefault().post(i,"OnPlayStatus");
+
+    }
+
     private static void G_StartAudio(int b) {
         if (b != 0) {
             AudioEncoder.start();

@@ -534,7 +534,7 @@ int OnLinePlayer::Play_B() {
         int ret = av_read_frame(pFormatCtx, &packet);
         if(ret!=0)
         {
-                break;
+            break;
         }
         else {
             if (packet.stream_index == videoindex) {
@@ -657,10 +657,10 @@ int OnLinePlayer::Play_B() {
 
 
     if(pVideoCodecCtx!= nullptr) {
-            if(avcodec_is_open(pVideoCodecCtx))
-                avcodec_close(pVideoCodecCtx);
+        if(avcodec_is_open(pVideoCodecCtx))
+            avcodec_close(pVideoCodecCtx);
 
-            avcodec_free_context(&pVideoCodecCtx);
+        avcodec_free_context(&pVideoCodecCtx);
         pVideoCodecCtx=nullptr;
 
     }

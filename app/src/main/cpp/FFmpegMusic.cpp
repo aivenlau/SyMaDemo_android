@@ -196,10 +196,10 @@ int FFmpegMusic::get(AVPacket *avPacket) {
 }
 
 void FFmpegMusic::play() {
-        isPause=1;
-        isPlay=1;
-        bStartPlay = false;
-            pthread_create(&playId, NULL, MusicPlay, this);//开启begin线程
+    isPause=1;
+    isPlay=1;
+    bStartPlay = false;
+    pthread_create(&playId, NULL, MusicPlay, this);//开启begin线程
 
 
 }
@@ -359,4 +359,3 @@ void FFmpegMusic::pause() {
         pthread_cond_signal(&cond);
     }
 }
-

@@ -13,18 +13,18 @@ cmake_minimum_required(VERSION 3.4.1)
 #设定ingluce 路径
 
 include_directories (
-#${CMAKE_CURRENT_SOURCE_DIR};
-src/main/cpp/ffmpeginclude;
-src/main/cpp/mp4v2-2.0.0;
-src/main/cpp/mp4v2-2.0.0/include;
-src/main/cpp/mp4v2-2.0.0/include/mp4v2;
-src/main/cpp/GL;
-src/main/cpp/GL/opengles;
-src/main/cpp/h264prase;
-/WORK/ffmpeg/ffmpeglib/include;
-/WORK/ffmpeg/libyuv/jni/include;
-/WORK/ffmpeg/speexdsp-1.2rc3/jni/include;
-/WORK/ffmpeg/OpenCV/include;
+    ${CMAKE_CURRENT_SOURCE_DIR};
+    src/main/cpp/ffmpeginclude;
+    src/main/cpp/mp4v2-2.0.0;
+    src/main/cpp/mp4v2-2.0.0/include;
+    src/main/cpp/mp4v2-2.0.0/include/mp4v2;
+    src/main/cpp/GL;
+    src/main/cpp/GL/opengles;
+    src/main/cpp/h264prase;
+    /WORK/ffmpeg/ffmpeglib/include;
+    /WORK/ffmpeg/libyuv/jni/include;
+    /WORK/ffmpeg/speexdsp-1.2rc3/jni/include;
+    /WORK/ffmpeg/OpenCV/include;
 #src/main/cpp/ffmpeginclude;
 )
 
@@ -34,14 +34,14 @@ src/main/cpp/h264prase;
 #添加 .c 源文件，这样配合 下面的 ${HJ_WIFI_source_files} 再配合Android Studio 中的 “Refresh Linked C++ Projects“ 就可以把设定目录中的源文件都加入的系统中，
 #无需每次都需要手动添加源文件到本配置文件中。
 
-file (GLOB_RECURSE HJ_WIFI_source_files "${CMAKE_CURRENT_SOURCE_DIR}/src/main/cpp/*.c*" )
+file (GLOB_RECURSE jh_wifi_files "${CMAKE_CURRENT_SOURCE_DIR}/src/main/cpp/*.c*" )
 
 add_library( # Sets the name of the library.
              jh_wifi
              # Sets the library as a shared library.
              SHARED
              # Provides a relative path to your source file(s).
-             ${HJ_WIFI_source_files}
+             ${jh_wifi_files}
              )
 
 # 设置opencv的动态库

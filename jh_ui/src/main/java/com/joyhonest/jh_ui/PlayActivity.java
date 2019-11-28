@@ -1917,4 +1917,10 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
         }
     };
 
+    @Subscriber(tag = "GetDataFromWifi")
+    private void GetDataFromWifi(byte[] data) {
+        //data 就是收到的数据
+        System.out.println("debug05: 获取到数据 ：" + new String(data));
+    }
+
 }

@@ -14,7 +14,7 @@
       "compilerSettingsCacheFolder": "/WORK2/SyMaDemo_android/.cxx",
       "cxxFolder": "/WORK2/SyMaDemo_android/app/.cxx",
       "ndkFolder": "/Users/aiven/Library/Android/sdk/ndk-bundle",
-      "ndkVersion": "20.0.5594570",
+      "ndkVersion": "20.1.5948944",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",

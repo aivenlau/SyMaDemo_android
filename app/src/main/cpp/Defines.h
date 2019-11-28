@@ -23,6 +23,11 @@
 #define   IC_RTLH264     11
 
 
+//支持SD卡   支持H264
+
+#define   IC_GPH264_34     12
+
+
 #define   IC_FILES      100
 
 

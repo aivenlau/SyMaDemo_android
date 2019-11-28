@@ -24,7 +24,7 @@
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/build/generated/res/resValues/debug" />
         <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
@@ -99,6 +99,29 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/ap_generated_sources/release/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/release/compileReleaseAidl/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/release" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/release/compileReleaseRenderscript/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/release" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/release" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/ap_generated_sources/releaseUnitTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/release/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/release/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/release/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/release/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/release/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/release/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/release/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/release/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testRelease/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testRelease/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testRelease/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testRelease/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testRelease/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testRelease/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testRelease/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testRelease/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.cxx" />
       <excludeFolder url="file://$MODULE_DIR$/.externalNativeBuild" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
@@ -122,6 +145,8 @@
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout:1.1.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: org.simple:androideventbus:1.0.5.1@aar" level="project" />
+    <orderEntry type="module" module-name="jh_ui" />
+    <orderEntry type="module" module-name="jh_ui" />
     <orderEntry type="module" module-name="jh_ui" />
   </component>
 </module>

@@ -4,25 +4,22 @@
 
 #ifndef FFMPEGVIDEOPLAY_FFMPEGVIDEO_H
 #define FFMPEGVIDEOPLAY_FFMPEGVIDEO_H
-#include <queue>
-#include<vector>
-#include <SLES/OpenSLES_Android.h>
-#include "FFmpegMusic.h"
+#import <queue>
+#import<vector>
+#import <pthread.h>
+#import <unistd.h>
 
+#import "FFmpegMusic.h"
 #ifdef __cplusplus
 extern "C" {
 #endif
+#import <libavcodec/avcodec.h>
+#import <libswresample/swresample.h>
+#import <libswscale/swscale.h>
+#import <libavformat/avformat.h>
 
-
-#include <unistd.h>
-#include <libavcodec/avcodec.h>
-#include <pthread.h>
-#include <libswresample/swresample.h>
-#include <libswscale/swscale.h>
-#include <libavformat/avformat.h>
-#include "Defines.h"
-#include <libavutil/imgutils.h>
-#include <libavutil/time.h>
+#import <libavutil/imgutils.h>
+#import <libavutil/time.h>
 #ifdef __cplusplus
 }
 #endif

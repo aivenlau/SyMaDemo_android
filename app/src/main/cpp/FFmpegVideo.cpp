@@ -171,6 +171,8 @@ void *videoPlay(void *args) {
             usleep( (uint32_t) ((actual_delay * 1000000) + 6000));
 
 
+
+
             if (gl_Frame != nullptr) {
 
 
@@ -258,7 +260,6 @@ int FFmpegVideo::put(AVPacket *avPacket) {
 }
 
 int FFmpegVideo::get(AVPacket *avPacket) {
-    // LOGE("取出队列");
     pthread_mutex_lock(&mutex);
     while (isPlay) {
         if (!queue.empty() && isPause) {

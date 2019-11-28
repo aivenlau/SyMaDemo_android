@@ -194,6 +194,8 @@ jmethodID F_InitEncoder_mid;
 jmethodID offerEncoder_mid;
 jmethodID F_CloseEncoder_mid;
 
+jmethodID OnPlayIsStarting_Callback_mid;
+
 
 jclass objclass;
 
@@ -862,6 +864,8 @@ jint JNI_OnLoad(JavaVM *vm, void *reserved) {
 
         //G_getIP = env->GetStaticMethodID(data_Clazz, "G_getIP", "()I");
 
+        OnPlayIsStarting_Callback_mid = env->GetStaticMethodID(data_Clazz, "OnPlayIsStarting_Callback", "(I)V");
+
 
         onReadRtlData_mid = env->GetStaticMethodID(data_Clazz, "onReadRtlData", "([B)V");
 
@@ -1052,7 +1056,11 @@ void F_AdjIcType(int type) {
         nICType = IC_GPRTPB;
         sServerIP = "192.168.33.1";         //图传用29，但支持SD卡
         nDataType = DATA_Type_MJPEG;
-    } else {
+    }else if (type == F_GetIpfor4Bytes(192, 168, 34)) {
+        nICType = IC_GPH264_34;
+        sServerIP = "192.168.34.1";         //通33，   但图传为H264格式
+        nDataType = DATA_Type_H264;
+    }else {
         nICType = IC_NO;
         sServerIP = "127.0.0.1";
     }
@@ -1129,6 +1137,7 @@ int _naInit_(const char *pFileName) {
         bInit = true;
         return -1;
     }
+
     std::string sServerIP1 = pFileName;
     deleteAllMark(sServerIP1," "); //清除空格
 
@@ -1370,7 +1379,7 @@ int naInit_Re_B(void) {
 
 
     }
-    if (nICType == IC_GPH264A || nICType == IC_RTLH264) {
+    if (nICType == IC_GPH264A || nICType == IC_RTLH264 || nICType == IC_GPH264_34) {
 
        // bStoped = true;
         bInit = true;
@@ -1656,8 +1665,7 @@ void F_GP_InitA(void) {
 int naInit_Re(void) {
     bInitMediaA = false;
     nFrameCount = 0;
-    //disp_no = -1;
-    //start_time = -1;
+
     m_FFMpegPlayer.nSecT = 0;
     m_FFMpegPlayer.nSpsSet = 0;
     m_FFMpegPlayer.nSpsSet = 0;
@@ -1665,8 +1673,7 @@ int naInit_Re(void) {
     F_StartheckFps();   //开始检查 每秒接受多少帧，从而来判断图像释放卡顿
     uint8_t msg[50];
     nCheckT_pre = av_gettime() / 1000;
-    DEBUG_PRINT("video file name is %s", sPlayPath);
-    DEBUG_PRINT("1");
+
     nSDStatus = 0;
     m_FFMpegPlayer.bStarDecord = false;
     m_FFMpegPlayer.StopSaveVideo();
@@ -1678,13 +1685,13 @@ int naInit_Re(void) {
     bInit = true;
 
     int i32Ret = -1;
-    if (nICType == IC_GPH264A || nICType == IC_RTLH264) {
+
+
+    if (nICType == IC_GPH264A || nICType == IC_RTLH264 ||  nICType == IC_GPH264_34) {
 
         int ret = 0;
 
         F_GP_InitA();
-
-       // bStoped = true;
 
         if (GP_tcp_VideoSocket.bConnected) {
             return -1;
@@ -2174,7 +2181,7 @@ int naStop_B(void) {
         //GPRTP_rev_thread = -1;
 
 
-    if (nICType == IC_GPH264A || nICType == IC_RTLH264) {
+    if (nICType == IC_GPH264A || nICType == IC_RTLH264 ||  nICType == IC_GPH264_34) {
         bInit = false;
         //bNeedExit = true;
         //usleep(1000 * 50);
@@ -2256,7 +2263,7 @@ int naStop(void) {
         }
 
 
-    if (nICType == IC_GPH264A || nICType == IC_RTLH264) {
+    if (nICType == IC_GPH264A || nICType == IC_RTLH264 ||  nICType == IC_GPH264_34) {
         F_SendStatus2Jave();
         DisConnect(true);
         ret = m_FFMpegPlayer.Stop();
@@ -2698,6 +2705,22 @@ void offerEncoder(uint8_t *data, int nLen) {
 }
 
 
+void OnPlayIsStarting_Callback(int n)
+{
+    if (OnPlayIsStarting_Callback_mid != nullptr) {
+        int needsDetach = 0;
+        JNIEnv *evn = getJNIEnv(&needsDetach);
+        if (evn == nullptr) {
+            return;
+        }
+        evn->CallStaticVoidMethod(objclass, OnPlayIsStarting_Callback_mid, n);
+        if (needsDetach)
+            gJavaVM->DetachCurrentThread();
+        return;
+    }
+}
+
+
 void F_onReadRtlData(uint8_t *data, int nLen) {
     if (onReadRtlData_mid != nullptr) {
         int needsDetach = 0;
@@ -2896,7 +2919,7 @@ Java_com_joyhonest_wifination_wifination_naSentCmd(JNIEnv *env, jclass type, jby
         cmd[nLen + 4] = (uint8_t) (ncheck >> 8);
 
         send_cmd_udp(cmd, nLen + 5, sServerIP.c_str(), 25000);
-    } else if (nICType == IC_GPRTSP || nICType == IC_GPRTP || nICType == IC_GPRTPB || nICType == IC_GPH264A || nICType == IC_RTLH264 || nICType == IC_GPRTPC || nICType == IC_GPH264) {
+    } else if (nICType == IC_GPRTSP || nICType == IC_GPRTP || nICType == IC_GPRTPB || nICType == IC_GPH264A || nICType == IC_RTLH264 || nICType == IC_GPRTPC || nICType == IC_GPH264 ||  nICType == IC_GPH264_34) {
 
         if (cmd_b[0] == 'J' &&
             cmd_b[1] == 'H' &&
@@ -4570,18 +4593,7 @@ Java_com_joyhonest_wifination_wifination_naSnapPhoto(JNIEnv *env, jclass type, j
             LOGE("Video Cmd _Photo2 GKA");
             F_SD_Snap();
         }
-        if (nICType == IC_GPRTSP || nICType == IC_GPRTP || nICType == IC_GPRTPB) {
-            uint8_t msg[7];
-            msg[0] = 'J';
-            msg[1] = 'H';
-            msg[2] = 'C';
-            msg[3] = 'M';
-            msg[4] = 'D';
-            msg[5] = 0x00;
-            msg[6] = 0x01;
-            send_cmd_udp(msg, 7, sServerIP.c_str(), 20000);
-        }
-        if (nICType == IC_GPH264) {
+        if (nICType == IC_GPRTSP || nICType == IC_GPRTP || nICType == IC_GPRTPB || nICType == IC_GPH264 || nICType == IC_GPH264_34) {
             uint8_t msg[7];
             msg[0] = 'J';
             msg[1] = 'H';
@@ -4603,18 +4615,7 @@ Java_com_joyhonest_wifination_wifination_naSnapPhoto(JNIEnv *env, jclass type, j
             LOGE("Video Cmd _Photo2 GKA");
             F_SD_Snap();
         }
-        if (nICType == IC_GPRTSP || nICType == IC_GPRTP || nICType == IC_GPRTPB) {
-            uint8_t msg[7];
-            msg[0] = 'J';
-            msg[1] = 'H';
-            msg[2] = 'C';
-            msg[3] = 'M';
-            msg[4] = 'D';
-            msg[5] = 0x00;
-            msg[6] = 0x01;
-            send_cmd_udp(msg, 7, sServerIP.c_str(), 20000);
-        }
-        if (nICType == IC_GPH264) {
+        if (nICType == IC_GPRTSP || nICType == IC_GPRTP || nICType == IC_GPRTPB || nICType == IC_GPH264 || nICType == IC_GPH264_34) {
             uint8_t msg[7];
             msg[0] = 'J';
             msg[1] = 'H';
@@ -4823,7 +4824,7 @@ void F_StopRecordAll() {
     } else if (nICType == IC_GKA) {
         //  if (nSDStatus & SD_Recording)
         F_SD_Stop_Recrod();
-    } else if (nICType == IC_GPRTSP || nICType == IC_GPRTP || nICType == IC_GPRTPB || nICType == IC_GPH264 || nICType == IC_GPH264A || nICType == IC_RTLH264) {
+    } else if (nICType == IC_GPRTSP || nICType == IC_GPRTP || nICType == IC_GPRTPB || nICType == IC_GPH264 || nICType == IC_GPH264A || nICType == IC_RTLH264 ||  nICType == IC_GPH264_34) {
         //if(nSdStatus_GP & 0x0100)
         {
             LOGE_B("Stop ALL");

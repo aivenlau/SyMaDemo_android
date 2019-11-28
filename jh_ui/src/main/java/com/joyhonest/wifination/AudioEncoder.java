@@ -111,7 +111,7 @@ public class AudioEncoder implements AudioCodec {
                         AUDIO_FORMAT) * 2;
                 mRecord = new AudioRecord(MediaRecorder.AudioSource.MIC,
                         KEY_SAMPLE_RATE, CHANNEL_MODE, AUDIO_FORMAT, minBufferSize);
-                int buffSize = Math.min(4096, minBufferSize);
+                int buffSize = Math.min(BUFFFER_SIZE, minBufferSize);
                 mFrameSize = buffSize;
                 mBuffer = new byte[mFrameSize];
                 mRecord.startRecording();

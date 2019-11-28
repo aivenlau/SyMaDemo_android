@@ -55,7 +55,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/FFMpegPlayerCore.cpp.o: CXX_COMPILER__
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/FFMpegPlayerCore.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/FFMpegPlayerCore.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -63,7 +63,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/FFmpegMusic.cpp.o: CXX_COMPILER__jh_wi
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/FFmpegMusic.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/FFmpegMusic.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -71,7 +71,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/FFmpegVideo.cpp.o: CXX_COMPILER__jh_wi
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/FFmpegVideo.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/FFmpegVideo.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -79,7 +79,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/GL/CameraOpenGLES.c.o: C_COMPILER__jh_
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/GL/CameraOpenGLES.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/GL/CameraOpenGLES.c
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp/GL
@@ -87,7 +87,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/GL/cameraShader.c.o: C_COMPILER__jh_wi
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/GL/cameraShader.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/GL/cameraShader.c
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp/GL
@@ -95,7 +95,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles/esUtil.c.o: C_COMPILER__jh
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles/esUtil.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/GL/opengles/esUtil.c
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles
@@ -103,7 +103,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles/matrix.c.o: C_COMPILER__jh
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles/matrix.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/GL/opengles/matrix.c
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp/GL/opengles
@@ -111,7 +111,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/GetVideoThumbnail.cpp.o: CXX_COMPILER_
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/GetVideoThumbnail.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/GetVideoThumbnail.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -119,7 +119,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/JH_TestInfo.cpp.o: CXX_COMPILER__jh_wi
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/JH_TestInfo.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/JH_TestInfo.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -127,7 +127,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/JPEG_BUFFER.cpp.o: CXX_COMPILER__jh_wi
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/JPEG_BUFFER.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/JPEG_BUFFER.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -135,7 +135,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/MyDownLoad_GKA.cpp.o: CXX_COMPILER__jh
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/MyDownLoad_GKA.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/MyDownLoad_GKA.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -143,7 +143,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/MyFrame.cpp.o: CXX_COMPILER__jh_wifi .
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/MyFrame.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/MyFrame.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -151,7 +151,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/MyMediaCoder.cpp.o: CXX_COMPILER__jh_w
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/MyMediaCoder.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/MyMediaCoder.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -159,7 +159,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/MyRevBuffer.cpp.o: CXX_COMPILER__jh_wi
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/MyRevBuffer.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/MyRevBuffer.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -167,7 +167,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/MySocketData.cpp.o: CXX_COMPILER__jh_w
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/MySocketData.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/MySocketData.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -175,7 +175,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/MySocket_GKA.cpp.o: CXX_COMPILER__jh_w
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/MySocket_GKA.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/MySocket_GKA.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -183,7 +183,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/MySonix.cpp.o: CXX_COMPILER__jh_wifi .
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/MySonix.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/MySonix.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -191,7 +191,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/OnLinePlayer.cpp.o: CXX_COMPILER__jh_w
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/OnLinePlayer.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/OnLinePlayer.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -199,7 +199,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/OpenCV_Focusing.cpp.o: CXX_COMPILER__j
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/OpenCV_Focusing.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/OpenCV_Focusing.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -207,7 +207,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/RTL_DownLoad.cpp.o: CXX_COMPILER__jh_w
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/RTL_DownLoad.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/RTL_DownLoad.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -215,7 +215,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/imageutils_jni.cc.o: CXX_COMPILER__jh_
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/imageutils_jni.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/imageutils_jni.cc
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -223,7 +223,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/jh_wifi.cpp.o: CXX_COMPILER__jh_wifi .
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/jh_wifi.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/jh_wifi.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -231,7 +231,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/myRTP.cpp.o: CXX_COMPILER__jh_wifi ../
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/myRTP.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/myRTP.cpp
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -239,7 +239,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/rgb2yuv.cc.o: CXX_COMPILER__jh_wifi ..
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/rgb2yuv.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/rgb2yuv.cc
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp
@@ -247,7 +247,7 @@ build CMakeFiles/jh_wifi.dir/src/main/cpp/yuv2rgb.cc.o: CXX_COMPILER__jh_wifi ..
   DEFINES = -DDEBUG -Djh_wifi_EXPORTS
   DEP_FILE = CMakeFiles/jh_wifi.dir/src/main/cpp/yuv2rgb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -Wno-error=format-security -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
+  INCLUDES = -I../../../../ -I../../../../src/main/cpp/ffmpeginclude -I../../../../src/main/cpp/mp4v2-2.0.0 -I../../../../src/main/cpp/mp4v2-2.0.0/include -I../../../../src/main/cpp/mp4v2-2.0.0/include/mp4v2 -I../../../../src/main/cpp/GL -I../../../../src/main/cpp/GL/opengles -I../../../../src/main/cpp/h264prase -I/WORK/ffmpeg/ffmpeglib/include -I/WORK/ffmpeg/libyuv/jni/include -I/WORK/ffmpeg/speexdsp-1.2rc3/jni/include -I/WORK/ffmpeg/OpenCV/include
   IN_ABS = /WORK2/SyMaDemo_android/app/src/main/cpp/yuv2rgb.cc
   OBJECT_DIR = CMakeFiles/jh_wifi.dir
   OBJECT_FILE_DIR = CMakeFiles/jh_wifi.dir/src/main/cpp

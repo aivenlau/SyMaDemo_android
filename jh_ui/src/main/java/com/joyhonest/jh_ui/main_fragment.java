@@ -918,7 +918,7 @@ public class main_fragment extends Fragment implements View.OnClickListener {
 
                 String ss = Storage.getNormalSDCardPath();
 
-                wifination.na4225StartPlay("","MOVI0142.AVI",14516224);
+                wifination.na4225StartPlay("","MOVI0016.AVI",60882944);
 
                 //wifination.na4225StartPlay("192.168.33.1",30000,"","MOVI0140.AVI",38043648);
                 //wifination.na4225StartPlay("192.168.33.1",30000,"","MOVI0136.AVI",44695552);
@@ -1060,6 +1060,7 @@ public class main_fragment extends Fragment implements View.OnClickListener {
 
                  //wifination.naStartRecord(sRecordFileName, wifination.TYPE_BOTH_PHONE_SD); //aivenlau
 
+                wifination.naSetRecordAudio(true);
                 wifination.naStartRecord(sRecordFileName, wifination.TYPE_ONLY_PHONE);
 
                 RecordTime_textView.setText("00:00");

@@ -68,6 +68,4 @@ public:
     int Stop();
 
 };
-
-
-#endif //SYMADEMO_ANDROID_ONLINEPLAYER_H
+#endif
