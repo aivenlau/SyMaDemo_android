@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000FF00"
+    tools:context="com.joyhonest.jh_ui.DispVideo_Fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:background="#FF000000"
+        android:orientation="horizontal">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <!--LinearLayout
+        android:id="@+id/ProgressBar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <SeekBar
+            android:id="@+id/SeekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:maxHeight="6.0dip"
+            android:minHeight="6.0dip"
+            android:progressDrawable="@drawable/po_seekbar_jh"
+            android:thumb="@drawable/seekbar_thumb_jh" />
+
+        <TextView
+            android:id="@+id/Pgrgress_time_view"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="00:00/00:00"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14dp" />
+    </LinearLayout -->
+
+    <Button
+        android:id="@+id/button_ExitPaly"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/return_nor_1_jh" />
+
+</RelativeLayout>

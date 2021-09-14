@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFFFF"
+              android:orientation="vertical"
+              tools:context="com.joyhonest.jh_fly.BrowSelectFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_phone"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50sp"
+            android:layout_toLeftOf="@+id/center1"
+            android:layout_toStartOf="@+id/center1"
+            android:background="@mipmap/phone_2_fly_jh"
+            android:visibility="invisible"/>
+
+        <Space
+            android:id="@+id/center1"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/button_sd"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_toEndOf="@+id/center1"
+            android:layout_toRightOf="@+id/center1"
+            android:background="@mipmap/sd_fly_jh"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Multi_media"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/return_button"
+            android:layout_width="32dp"
+            android:layout_height="26dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="false"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/return_icon_black_fly_jh"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/back_1_fly_jh">
+
+        <Space
+            android:id="@+id/center"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+        <RelativeLayout
+            android:id="@+id/la1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/center"
+            android:layout_toStartOf="@+id/center">
+
+            <Button
+                android:id="@+id/button_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:layout_centerVertical="true"
+                android:background="@mipmap/photo2_icon_fly_jh"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/la1">
+
+            <Button
+                android:id="@+id/button_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:layout_centerVertical="true"
+                android:background="@mipmap/video_icon_fly_jh"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</LinearLayout>

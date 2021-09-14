@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraint_layout"
+    android:background="#FF000000"
+    tools:context="com.joyhonest.jh_ui.PlayActivity">
+    <!-- android:background="@mipmap/loginbackground_jh" -->
+
+
+
+    <!--com.joyhonest.wifination.JH_GLSurfaceView
+        android:id="@+id/surfaceView_gl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        /-->
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/DispImageV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/Fragment_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

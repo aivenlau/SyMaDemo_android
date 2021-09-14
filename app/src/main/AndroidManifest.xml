@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joyhonest.symademo">
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <!--uses-permission android:name="android.permission.WRITE_SETTINGS" /-->
+    <!-- 向SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- SDCard中创建与删除文件权限 -->
+    <!--uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /-->
+    <!-- 设置允许改变配置信息的权限 -->
+    <!--uses-permission android:name="android.permission.CHANGE_CONFIGURATION" /-->
+    <!-- 允许程序读取系统日志 -->
+    <!--uses-permission android:name="android.permission.READ_LOGS" / -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.usb.host"/>
+
+        
+    <!-- landscape-->
+    <!--android:label="@string/app_JHDemo_test" -->
+    <!-- android:largeHeap="true" -->
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_JHDemo"
+        android:screenOrientation="sensorLandscape"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

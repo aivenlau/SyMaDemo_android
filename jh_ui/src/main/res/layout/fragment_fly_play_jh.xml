@@ -1,0 +1,331 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+                android:background="#FF909090"
+                android:id="@+id/rooglayout"
+             tools:context="com.joyhonest.jh_fly.FlyPlayFragment">
+
+
+    <!--RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/LayoutMask"
+        android:background="#FF000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/return_btn_b"
+            android:layout_width="32dp"
+            android:layout_height="26dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:alpha="0.3"
+            android:background="@mipmap/return_icon_fly_jh"/ >
+    </RelativeLayout -->
+
+    <com.joyhonest.jh_ui.MyControl
+        android:id="@+id/myControl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    </com.joyhonest.jh_ui.MyControl>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/photo_mask"
+        android:background="#90FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/WifiSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/ic_wifi04"/>
+
+
+    <LinearLayout
+        android:id="@+id/Layout_Right_Menu"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/button10"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="30dp"
+            android:layout_height="26dp"
+            android:background="@mipmap/remote_control_fly_jh"
+            android:gravity="center_horizontal"
+            />
+
+        <com.joyhonest.jh_fly.MySwitch
+
+            android:id="@+id/button02"
+            android:layout_width="50dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/photo_record_icon_fly_jh"/>
+
+        <TextView
+            android:id="@+id/Record_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="00:00"
+            android:textColor="#FFFFFFFF"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button04"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@mipmap/folder_fly_jh"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/return_btn"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/return_icon_fly_jh"/>
+
+    <Button
+        android:id="@+id/return_btn1"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-20dp"
+        android:layout_toStartOf="@+id/button10"
+        android:background="@mipmap/return_icon_fly_jh"/>
+
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button11"
+        android:layout_marginTop="45dp"
+        android:background="@mipmap/stop_nor_fly_jh"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@mipmap/keyup_dn_fly_jh"
+        />
+
+    <RelativeLayout
+        android:id="@+id/Menu_Layout"
+        android:layout_width="50dp"
+        android:layout_height="206dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="55dp"
+        android:visibility="visible"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/button_more_b"
+            android:layout_width="30dp"
+            android:layout_height="18dp"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/more_fly_jh"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/snapshot"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/round_back_select_jh"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="snapshot"
+        android:textColor="#FF000000"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="HardcodedText"/>
+
+
+
+
+    <LinearLayout
+        android:elevation="16dp"
+        android:id="@+id/tool_menu"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="55dp"
+        android:layout_width="50dp"
+        android:layout_height="206dp"
+        android:gravity="center_horizontal"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+
+        <com.joyhonest.jh_fly.MySwitch
+            android:id="@+id/button_leftRight"
+            android:layout_width="50dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/tool_1_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/rect_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/button05"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@mipmap/speed_low_fly_jh"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/button06"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@mipmap/adj_fly_jh"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/button09"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@mipmap/vr_fly_jh"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tool_2_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/button07"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@mipmap/gsensor_icon_fly_jh"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/button08"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@mipmap/path_icon_fly_jh"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/button0A"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@mipmap/headless_fly_jh"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

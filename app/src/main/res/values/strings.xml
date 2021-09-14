@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_JHDemo">乐信 TEST</string>
+    <string name="app_ABRDemo">ABR Demo</string>
+    <string name="app_BydDemo">BYD Demo</string>
+    <string name="app_JHDemoLkey">乐信 I帧 Demo</string>
+    <string name="app_GPH264A_480">乐信 Demo_GP480</string>
+    <string name="app_JHDemo_test">乐信 Demo_Test</string>
+    <string name="app_SymaDemo">SyMaDemo</string>
+    <string name="GPH264_NEW">GPH264_NEW</string>
+    <string name="app_name_720">SyMaDemo_720</string>
+    <string name="app_5G">5G_720_TESGT</string>
+    <string name="app_GPRTP">GP_RTP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

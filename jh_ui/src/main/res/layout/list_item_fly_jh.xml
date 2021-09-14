@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+
+        app:srcCompat="@mipmap/damageimg_jh"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/progress_jh"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView1"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView1"
+        app:layout_constraintRight_toRightOf="@+id/imageView1" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="PICT0000.jpg"
+        android:textColor="#FFFFFFFF"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView1"
+        app:layout_constraintRight_toRightOf="@+id/imageView1"
+        app:layout_constraintTop_toTopOf="@+id/progressBar"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <TextView
+        android:id="@+id/textView_Precent"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="left|center_vertical"
+        android:textColor="#FFFFFFFF"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_name"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView1"
+        app:layout_constraintTop_toTopOf="@+id/textView_name" />
+
+    <TextView
+        android:id="@+id/textView_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignEnd="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="right|center_vertical"
+        android:textColor="#FFFFFFFF"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_name"
+        app:layout_constraintRight_toRightOf="@+id/textView_name"
+        app:layout_constraintTop_toTopOf="@+id/textView_name" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@mipmap/selectedflag_fly_0_jh"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_name"
+        app:layout_constraintRight_toRightOf="@+id/imageView1"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@mipmap/videotype_icon_fly_jh"/>
+</RelativeLayout>

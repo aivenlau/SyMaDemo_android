@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_jh">Hello blank fragment</string>
+    <string name="app_name_jh">jh ui</string>
+    <string name="delete_file">Delete the selected file?</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Multi_media">Multi-media</string>
+</resources>

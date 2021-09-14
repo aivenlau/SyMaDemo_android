@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context="com.joyhonest.jh_ui.Path_Fragment">
+
+    <com.joyhonest.jh_ui.MyControl
+        android:id="@+id/myControl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </com.joyhonest.jh_ui.MyControl>
+
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="55dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@mipmap/stop_nor_jh" />
+
+    <ImageView
+        android:id="@+id/imageView4_Rssi"
+        android:layout_width="45dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/button_stop"
+        android:layout_toStartOf="@+id/button_stop"
+        android:background="@mipmap/wifistrength_4_jh"
+        android:contentDescription=""
+        android:visibility="visible"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@mipmap/return_nor_1_jh" />
+</RelativeLayout>

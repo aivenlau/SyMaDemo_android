@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loginbackground_fly_jh"
+    android:id="@+id/rooglayout"
+                tools:context="com.joyhonest.jh_fly.FlyPathFragment">
+
+    <com.joyhonest.jh_ui.MyControl
+        android:id="@+id/myControl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    </com.joyhonest.jh_ui.MyControl>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/photo_mask"
+        android:background="#90FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/WifiSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:background="@mipmap/ic_wifi04" />
+
+    <LinearLayout
+        android:id="@+id/Layout_Right_Menu"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/button10"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="40dp"
+            android:layout_height="26dp"
+            android:background="@mipmap/open_eye_fly"
+            android:gravity="center_horizontal"/>
+
+        <com.joyhonest.jh_fly.MySwitch
+            android:id="@+id/button02"
+            android:layout_width="50dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/photo_record_icon_fly_jh"/>
+
+        <TextView
+            android:id="@+id/Record_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="00:00"
+            android:textColor="#FFFFFFFF"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <!--Button
+            android:id="@+id/button04"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@mipmap/folder_fly_jh_b"/ -->
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/return_btn"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/return_icon_fly_jh"/>
+
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button11"
+        android:layout_marginTop="45dp"
+        android:background="@mipmap/stop_nor_fly_jh"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:background="@mipmap/keyup_dn_fly_jh"
+        android:visibility="invisible"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/snapshot"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_back_select_jh"
+        android:gravity="center"
+        android:text="snapshot"
+        android:textColor="#FF000000"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:elevation="20dp"
+        tools:ignore="HardcodedText"/>
+
+</RelativeLayout>

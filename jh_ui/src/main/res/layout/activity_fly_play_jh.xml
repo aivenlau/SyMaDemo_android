@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joyhonest.jh_fly.Fly_PlayActivity">
+
+    <!--com.joyhonest.wifination.JH_GLSurfaceView
+        android:id="@+id/glSurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/ -->
+
+    <ImageView
+        android:id="@+id/DispImageV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/Fragment_Layout"
+        android:background="#01000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_number_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="1"
+        android:textColor="#FF0000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+</RelativeLayout>

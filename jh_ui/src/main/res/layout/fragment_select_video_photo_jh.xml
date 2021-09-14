@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/selected_bg_jh"
+    tools:context="com.joyhonest.jh_ui.Select_Video_Photo_Fragment"
+    >
+    <Button
+        android:id="@+id/button_Exit"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="46dp"
+        android:background="@mipmap/return_nor_1_jh"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/Photo"
+        android:layout_width="135dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_toStartOf="@+id/DownLoad_precent_View"
+        android:background="@mipmap/showphotofolder_nor_jh"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/Video"
+        android:layout_width="135dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/DownLoad_precent_View"
+        android:background="@mipmap/showvideofolder_nor_jh"
+        android:elevation="0dp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/DownLoad_precent_View"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="invisible"
+         />
+
+
+    <TextView
+        android:id="@+id/photo_number_label"
+        android:layout_width="26dp"
+        android:layout_height="18dp"
+        android:layout_alignBottom="@+id/Photo"
+        android:layout_alignRight="@+id/Photo"
+        android:layout_marginBottom="26dp"
+        android:layout_marginRight="17dp"
+        android:elevation="24dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#ffffffff"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/video_number_label"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/Video"
+        android:layout_alignRight="@+id/Video"
+        android:layout_marginBottom="26dp"
+        android:layout_marginRight="17dp"
+        android:elevation="24dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFFFFFFF"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+</RelativeLayout>

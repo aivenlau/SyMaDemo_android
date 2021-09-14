@@ -1,0 +1,166 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@mipmap/selected_bg_jh"
+                                             tools:layout_editor_absoluteY="0dp"
+                                             tools:layout_editor_absoluteX="0dp">
+
+
+    <Button
+        android:id="@+id/But_Exit"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="46dp"
+        android:background="@mipmap/return_nor_1_jh"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/But_Select"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="46dp"
+        android:background="@mipmap/selected_nor_jh"
+        app:layout_constraintRight_toLeftOf="@+id/But_Exit"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/But_Delete"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="46dp"
+        android:background="@mipmap/delete_nor_jh"
+        app:layout_constraintRight_toLeftOf="@+id/But_Select"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/But_Add2ALBUM"
+        android:layout_width="96dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="46dp"
+        android:background="@mipmap/addtoalbum_nor_jh"
+        android:visibility="invisible"
+        app:layout_constraintRight_toLeftOf="@+id/But_Delete"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_a_jh"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/But_Add2ALBUM" />
+
+    <TextView
+        android:id="@+id/DownLoad_precent_View"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="51dp"
+        android:text="100%"
+        android:textColor="#FFFF0000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded"
+        android:layout_marginStart="51dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp" />
+
+    <!--app:srcCompat="@mipmap/photofolder_nor_jh"-->
+    <ImageView
+        android:id="@+id/logo_ImgView"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:background="@mipmap/photofolder_nor_jh"
+        android:contentDescription=""
+        app:layout_constraintBottom_toBottomOf="@+id/But_Add2ALBUM"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="RtlHardcoded"/>
+
+    <GridView
+        android:id="@+id/GridView1"
+        android:background="@drawable/round_back_jh"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="8dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:verticalSpacing="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:id="@+id/AlartView"
+        android:layout_width="220dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#70787a"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/delete_file"/>
+
+        <Button
+            android:id="@+id/button_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/YES"/>
+
+        <Button
+            android:id="@+id/button_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/NO"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
